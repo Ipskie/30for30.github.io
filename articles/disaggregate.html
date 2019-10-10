@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title><a class="navbar-brand" href="../index.html">30for30</a></title>
+  <!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="../css/small-business.css" rel="stylesheet">
+  <!-- Favicon -->
+  <link href="/icons/favicon.png" rel="shortcut icon" type="image/png"/>
+</head>
+<body>
+  <div id="page-container">
+    <div id="content-wrap">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html"><a class="navbar-brand" href="../index.html">30for30</a></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../articles.html">Articles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contribute.html">Contribute</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../faq.html">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Heading Row -->
+      <div class="row dark-hero">
+        <div class="container">
+          <div class="row">
+            <div class="page-title">
+              <h1>You Should Disaggregate</h1>
+              <p></p>
+            </div>
+            <div class="hero-img-container">
+              <div id="disaggregate-teaser" class="hero-img" alt="header image"></div>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+      <!-- Page Content -->
+      <div class="container">
+        <div class="article-container rounded-lg">
+          <h3>Why You Should Disaggregate Your HS Data</h1>
+          <p>A silly example: say you play 20 games of ZooLock a day, and have a decent sample size. You divide your games by the weekday they were plated (Monday, Tuesday, etc.)</p>
+          <br>
+          <p>You notice that Saturday’s winrate is noticeably lower, which doesn’t really make sense, until you consider that Friday is bar night. If you’re gunning for legend, that’s valuable information: either cut back the drinks or avoid playing with a hangover. (I warned you it was silly)</p>
+          <br>
+          <p>This is a (fictional) example of gaining insight though disaggregation. And though it sounds stupid, it’s pretty close to the advice Eloise gave <a href="https://www.reddit.com/r/CompetitiveHS/comments/3yymih/eloise_otk_warlock_top_10_legend_cn_server_xpost/">on /r/CompetitiveHS</a>.</p>
+          <blockquote>
+          <p>I strongly suggest you play at mid night. because when people get tired they don’t want to play around arcane combo. I get very insane winrate at mid night.</p>
+          </blockquote>
+          <br>
+          <h3>What is Disaggregation?</h3>
+          <p>Disaggregation means splitting your data into categories, usually after collecting and lumping it all together (hence dis-aggregating). </p>
+          <br>
+          <ul><li>The easiest example is Deck Matchups, e.g. What’s the winrate of Control Warrior against Zoolock? If you’re heading into a tournament, that informs your deck picks. If you’re on ladder, pick a deck that with a good winrate against today’s meta, not last week’s.
+          </li><li>Disaggregation is also behind card-by-card analysis. <a href="https://www.reddit.com/r/CompetitiveHS/comments/cu3kqu/using_data_to_improve_your_game/">This writeup</a> breaks down how <a href="https://www.reddit.com/r/CompetitiveHS/comments/coc07b/aggro_rogue_featuring_zephrys_the_lethal/">Zephrys the Lethal</a> is actually one of the worst cards in Aggro Rogue, based on this disappointing drawn winrate. This is an example of disaggregating Winrate by whether a certain card was drawn. 
+          </li></ul>
+          <br>
+          <h3>Problems with Disaggregation</h3>
+          <p>Breaking data into distinct pieces lets us see the differences between them, but it can also make the data less reliable, since each piece has a smaller sample size.</p>
+          <br>
+          <p>Take Control Warrior. At time of writing, HSReplay has ~300,000 games with one list. That’s a big sample! But how many were vs. the new Murloc Paladin? How many against one specific list of Mrrrgl Pally? Are those games enough to publish a reliable Winrate?</p>
+          <br>
+          <p>It is easy to <i>over</i>-categorize your data, breaking it into pieces that are too small to be useful. Hearthstone may be absurdly popular, but data about it is thin on the ground. Even Vicious Syndicate (whose work I respect) cannot always gather the 100 game minimum to fully populate their matchup chart. </p>
+          <br>
+          <h3>What else?</h3>
+          <p>One of the ways we can fight these problems is to be smarter about the way we slice and dice the data. A few methods:</p>
+          <br>
+          <ul><li>Fuzzy decklist. There are many variants of Combo Priest, but most differ by a Holy Ripple here, a Topsy Turvy there. If there are too few games to publish a reliable matchup winrate, why not aggregate similar decklists to get a better idea? This goes double for Highlander decks, which naturally have a million variations.
+          </li><li>Divide matchups by archetype. Matchups could be analyzed by the style of the opponent’s deck. Token druid might ‘play’ closer to ZooLock than to Combo or Quest druid. Aggro warrior and Aggro rogue certainly share more with it each other than Control Warrior.
+          </li><li>Look at board state. There is a mountain of untapped data in the board state. A simple example would be determining the best time to Brawl / Mass Hysteria / Earthquake. Is this board too small to AoE, or should I have thrown the brawl down against 3 minions? Questions like these are still unanalyzed, and the answers are lost because we only have a simple drawn winrate for each card in the deck.
+          </li></ul>
+          <br>
+          <h3>Disaggregation & Game Design</h3>
+          <p>Lastly, disaggregation can affect Hearthstone itself.</p>
+          <br>
+          <ul><li>Disguised Toast’s <a href="https://www.youtube.com/watch?v=n9dpCK96XTI">analysis</a> of Animal Companion showed that while each Companion has an area of strength, each is about equally good.
+          </li><li>Or take the <a href="https://hearthstone.gamepedia.com/Tuskarr_Totemic">Tuskarr Totemic nerf</a>, which was driven by the gap in winrates between basic vs 3/4 totems. 
+          </li><li>Finally, this kind of thinking informed the design of the Coin, ensuring near perfect balance between going first or second.
+          </li></ul>
+          <br>
+          <p>In summary, creative categorization of a data set can lead to more insight on the game, without the need for more data.</p>
+        </div>
+        <!-- /.article-container -->
+        <div class="article-card rounded-lg">
+          <div class="contribute-teaser rounded-lg">
+            <h2 class='text-white'>Contribute Today!</h2>
+            <p class='text-white'>Free, Public Data</p>
+            <button href="../contribute.html" class="btn btn-primary btn-sm">Check It Out</button>
+          </div>
+          <a href="../contribute.html"><span class="article-link"></span></a>
+        </div>
+        <div class="article-card rounded-lg">
+            <div class="article-teaser rounded-lg" id="winrate-teaser">
+              <div class="row">
+                <div class="teaser-title">
+                  <h2 class='text-white'>Winrate in Hearthstone</h2>
+                  <p class='text-white'></p>
+                </div>
+                <div class="article-preview">
+                  <p class="truncate-overflow">In Hearthstone, winrate is king. Deck guides advertise it, tier lists are decided by it, even going infinite in Arena is tied to achieving a certain winrate. Winrates can seem like promises: if you learn this deck and play enough games, you too can win 60% of the time and earn that sweet legend card back</p> 
+                </div>
+              </div>
+            </div>
+            <a href="../articles/winrate.html"><span class="article-link"></span></a>
+          </div>
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- Footer -->
+    <footer class="py-3 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; 30for30 2019</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+  </div>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

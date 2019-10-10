@@ -1,0 +1,337 @@
+:root{
+  --title-height:15rem;
+}
+body {
+  padding-top: 56px;
+  min-height: 100vh;
+}
+
+/* util modifications */
+li{
+  margin-bottom: 5px;
+}
+ul,ol{
+  margin: 0;
+}
+.bg-white{
+  background-color: white;
+}
+.bg-dark{
+  background-color:#343a40!important
+}
+.text-black{
+  color:black;
+}
+.no-margin{
+  margin: 0;
+}
+.centered{
+  align-content: center;
+}
+
+.card-lower{
+  padding:.75rem 1.25rem;
+  background-color:rgba(172, 215, 255, 0.109);
+  border-top:1px solid rgba(0,0,0,.125)
+}
+.dd-overlay{
+  position: absolute;
+  max-width:100%;
+  height:100%;
+  background: -webkit-gradient(linear, left top, right top, from(rgb(5, 5, 5)), to(rgba(255, 255, 255, 0)), color-stop(0.50, rgba(255, 255, 255, 0)));
+  z-index: 2;
+}
+
+/* hero images at the top of the page */
+.dark-hero{
+  background-color: rgb(5, 5, 5);
+  width:100%;
+  height: var(--title-height);
+  position:relative;
+  margin-left: 0;
+  margin-right: 0;
+  z-index: 2;
+}
+.hero-img{
+  width: 100%;
+  height: var(--title-height);
+}
+.hero-img-container{
+  position: absolute;
+  width: 100%;
+  height: var(--title-height);
+  z-index: 1;
+  right:0;
+}
+#privacy-hero{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0)60%, rgb(0, 0, 0),  rgb(0, 0, 0)),  url('/images/privacy.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#faq-hero{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0)60%, rgb(0, 0, 0),  rgb(0, 0, 0)),  url('/images/faq.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#contribute-hero{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0)60%, rgb(0, 0, 0),  rgb(0, 0, 0)),  url('/images/contribute.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#articles-hero{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0)60%, rgb(0, 0, 0),  rgb(0, 0, 0)),  url('/images/article.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#dd-hero{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0)60%, rgb(0, 0, 0),  rgb(0, 0, 0)),  url('/images/lifedrinker.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.page-title{
+  height: var(--title-height);
+  padding: 15px;
+  z-index: 2;
+}
+.page-title > h1{
+  width:10rem;
+  color:white;
+}
+.page-title > p{
+  width:var(--title-width);
+  color:white;
+  margin-bottom: 0.3rem;
+}
+
+
+/*  */
+.card-title{
+  position: relative;
+  margin-bottom:0;
+}
+a > h5{
+  margin: 0;
+}
+footer{
+  display: block;
+  position: absolute;
+  width: 100%;
+  left:0;
+  bottom:0;
+}
+
+/* prevents the footer from floating on short pages */
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+/* buttons with icons */
+.btn-primary{
+  color:#fff;
+  background-color:rgb(89, 172, 252);
+  border-color:rgb(81, 157, 228);
+}
+.btn-primary:hover{
+  color:#fff;
+  background-color:rgb(79, 153, 223);
+  border-color:rgb(69, 133, 194)
+}
+.svg-inline{
+  height:1.25rem;
+  margin-right: 5px;
+}
+
+/* styling for inline code snippets */
+snippet{
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  color: #666;
+  font-family: monospace;
+  font-size: 1.25rem;
+  padding: 0.25em 0.5em;
+}
+
+/* prevents the navbar from covering the content when following hash links */
+.hash-anchor{
+  position: relative;
+  top: -90px;/*56px (navbar) + 34px (card)*/
+}
+
+/* special card for calling contributors */
+.contribute-teaser{
+  position: relative;
+  width: 100%;
+  height:100%;
+  z-index: 1;
+  padding:2rem;
+  display: block;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0)30%, rgb(0, 0, 0)),  url('../images/contribute.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* styling for the articles */
+.article-container{
+  position: relative;
+  background-color: rgb(246, 251, 255);
+  margin-top: -3rem;
+  z-index: 4;
+  padding:2rem;
+  font-size: 130%;
+  line-height: 1.6
+}
+.img-container{
+  width: 100%;
+  align-content: center;
+  margin-top:2rem;
+  margin-bottom:.5rem;
+}
+.img-container > img{
+  width:100%;
+}
+.img-container > p{
+  text-align: center;
+  margin:0.5rem;
+}
+#winrate-teaser{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0)30%, rgb(0, 0, 0)),  url('../images/winrate.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#uncertainty-teaser{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0)30%, rgb(0, 0, 0)),  url('../images/uncertainty.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#disaggregate-teaser{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0)30%, rgb(0, 0, 0)),  url('../images/disaggregate.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#dd-teaser{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0)30%, rgb(0, 0, 0)),  url('/images/lifedrinker.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.article-card{
+  position: relative;
+  background-color: rgb(246, 251, 255);
+  margin-top: +1.5rem;
+  padding:0rem;
+  font-size: 130%;
+  line-height: 1.6;
+  height:100%;
+}
+.article-card:last-of-type{
+  margin-bottom: 2.5rem;
+}
+.article-card h1,.article-card h2,.article-teaser > p{
+  width:10rem;
+}
+.article-teaser > button{
+  font-size: 80%;
+}
+.article-teaser > .row{
+  margin: 0;
+}
+.article-teaser{
+  position: relative;
+  width: 100%;
+  height:100%;
+  z-index: 1;
+  padding:inherit;
+  display: block;
+}
+.article-link{
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+  z-index: 2;
+}
+
+/* block quote styling */
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote p {
+  display: inline;
+}
+
+/* etc etc etc */
+.article-preview{
+  flex: initial;
+  min-width: 15rem;
+  min-height: 100%;
+  background: #ffffffd5;
+  position: relative;
+  padding:2rem;
+}
+.article-preview > p{
+  margin: 0;
+}
+.preview-text{
+  flex-wrap: wrap;
+  max-width: 15rem;
+} 
+.teaser-title{
+  flex:auto;
+  margin: 2rem;
+}
+.truncate-overflow{
+  flex-wrap: wrap;
+  flex:auto;
+  overflow: hidden;
+  max-width: 100%;
+}
+@media (min-width:500px){
+  .article-preview{
+    /* avoids glitches at this width, do NOT adjust! */
+    width: 15rem; 
+  }
+  .truncate-overflow{
+    --max-lines: 5;
+    --lh: 1.8rem;
+    line-height: var(--lh);
+    max-height: calc(var(--lh) * var(--max-lines));
+  }
+}
+@media (max-width:500px){
+  /* flip into column arrangement at 500px */
+  .article-preview{
+    width: 100%;
+  }
+  .truncate-overflow{
+    --max-lines: 3;
+    --lh: 1.8rem;
+    line-height: var(--lh);
+    max-height: calc(var(--lh) * var(--max-lines));
+  }
+}
+
+/* contact form iframe */
+#contact{
+  width:100%;
+  height:397px;
+  margin:0;
+  z-index: 2;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title><a class="navbar-brand" href="../index.html">30for30</a></title>
+  <!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="../css/small-business.css" rel="stylesheet">
+  <!-- Favicon -->
+  <link href="/icons/favicon.png" rel="shortcut icon" type="image/png"/>
+</head>
+<body>
+  <div id="page-container">
+    <div id="content-wrap">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html"><a class="navbar-brand" href="../index.html">30for30</a></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../articles.html">Articles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contribute.html">Contribute</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../faq.html">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Heading Row -->
+      <div class="row dark-hero">
+        <div class="container">
+          <div class="row">
+            <div class="page-title">
+              <h1>Uncertainty in Hearthstone</h1>
+              <p></p>
+            </div>
+            <div class="hero-img-container">
+              <div id="uncertainty-teaser" class="hero-img" alt="header image"></div>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+      <!-- Page Content -->
+      <div class="container">
+        <div class="article-container rounded-lg">
+          <p>There was recently <a href="https://www.reddit.com/r/CompetitiveHS/comments/cu3kqu/using_data_to_improve_your_game/">a great post</a> on using data to improve your game. I want to temper that enthusiasm with a piece on “uncertainty”.</p>
+          <br>
+          <h3>Let’s Talk About HS Replay</h3>
+          <p>First, I want to say that HS Replay’s data is generally good. They publish stats for free, many of which are extremely useful for understanding the game. I myself crafted <a href="https://www.reddit.com/r/CompetitiveHS/comments/coc07b/aggro_rogue_featuring_zephrys_the_lethal/">Zephrys the Lethal</a>, and regretted not checking HS Replay beforehand. Ok, let’s start the bashing.</p>
+          <br>
+          <div class="img-container rounded">
+            <img class="rounded centered" src="/articles/assets/plagueofwrath.png" alt="Visualization of Coin Curve" />
+            <p><a href="https://hsreplay.net/cards/54386/plague-of-wrath#tab=recommended-decks">Exhibit A</a></p>
+          </div>
+          <p>Plague of Wrath might not have been the best card. Actually, at the start of August, it was so bad that it’s Winrate was 0%. That’s right, exactly 0. HS Replay publishes their data to an astonishing 0.01% accuracy, so the card must have won less than 1 in 20,000 games.</p>
+          <p>This number is obviously ridiculous — so why publish it? </p>
+          <div class="img-container rounded">
+            <img class="rounded centered" src="/articles/assets/temporogue.png" alt="Visualization of Coin Curve" />
+            <p><a href="https://hsreplay.net/decks/X9BGt7L2I4SOrnLhyCGd9g/">Exhibit B</a></p>
+          </div>  
+          <p>Ok, Plague of Wrath is 1 card. What about whole decks? Take a look at Tempo Rogue, whose winrate fell from exactly 75.00% to average, then cratered today to 25% (at time of writing). Man, the meta really is in flux at the start of the expansion huh?</p>
+          <br>
+          <p>As I said, HS Replay data can be good, even great. But here’s the thing: there’s nothing distinguishing the good data from the utter nonsense. What’s clear is that for some decks, the website is using a sample size that is ludicrously small. It the case of Tempo Rogue, it might have been 4, 8, or 12 games to land on such a perfect number. Whatever it is, it’s clearly not enough. How can we address this problem?</p>
+          <br>
+          <h3>What is Uncertainty?</h3>
+          <p>Uncertainty is the hedging of statistical bets, and it is conspicuously absent from Hearthstone analysis in general. HS Replay has a lot of data, but they don’t capture <i>all</i> games. Any figures  “meta game writers” publish must be treated as guesses, because they are guesses: only Blizzard truly know the state of the meta game (and they don’t write the Data Reaper).</p>
+          <br>
+          <p>Confidence intervals, or margins of error, put a number on how “guess-y” our guess is. Suppose the Winrate of Aggro Rogue is 53±5% (95% confidence interval). That means that after looking at all the Aggro Rogue games I could find (the data set), I think there is a 95% chance that the true Winrate of the deck is somewhere between 48—58% (it could be outside that range, but it’s unlikely). In Hearthstone, that’s spread is the difference between blegh and bonkers. How can we narrow that window?</p>
+          <br>
+          <h3>Where are the Confidence Intervals?</h3>
+          <p>Hearthstone has 3 characteristics that matter to stats nerds:</p>
+          <br>
+          <ol start="1"><li>Independence: your previous games don’t affect your future games (*1)
+          </li><li>Win / Lose: Hearthstone games either end in a win of a loss (*2)
+          </li><li>Fairly Even: Even in truly terrible matchups, your chances of winning might be 10-20% (on average). Importantly, your matchup chances (at the start of the game) are rarely close to 0% or 100%
+          </li></ol>
+          <br>
+          <p>In other words, Hearthstone games are almost perfect <a href="https://en.wikipedia.org/wiki/Bernoulli_trial">Bernoulli Trials</a>. There are many good (and easy!) ways to calculate confidence intervals for such a data set, and this also means that as we collect more data, our confidence intervals will shrink. If you narrow the Aggro Rogue win rate to 53±2% (95% confidence interval), then the range is a much tighter 51—55%, and we can be nearly certain that the deck is viable, if not amazing.</p>
+          <br>
+          <p>About that tempo rogue: using their middle figure of ~56% winrate, and sample size of ~10000 games, we get a 95% confidence interval of ~±0.97%, not bad at all! I think that HS Replay should publish this winrate and the margin of error, instead of claiming to have seen Tempo Rogue fall from Tier 0 status over 4 days.</p>
+          <br>
+          <h3>Conclusion</h3>
+          <p>If you claim to know the numbers, then post 1 good number, not 8 decent numbers and 2 nonsense ones. On the ladder, Winrate is king, and unreliable numbers can mislead players. Data organizations should either require more games, or attach margins of error to their figures. I encourage all data publishers to disclose how guess-y their guesses are, so that readers are better informed. </p>
+          <br>
+          <p>TL;DR: Small numbers = big oops</p>
+          <hr>
+          <p>(*1) winning / losing changes your rank, which may pit you against better / worse opponents, but the difference between Rank 10, 3 Stars and Rank 10, 5 Stars is probably negligible. The exception is at the Rank ceilings (5, 10, 15, Bottom Legend), where people can play meme decks without getting demoted.</p>
+          <br>
+          <p>(*2) Ties are very rare, and usually the result of fatigue or symmetrical damage spells. They can be rounded off.</p>
+        </div>
+        <!-- /.article-container -->
+        <div class="article-card rounded-lg">
+          <div class="contribute-teaser rounded-lg">
+            <h2 class='text-white'>Contribute Today!</h2>
+            <p class='text-white'>Free, Public Data</p>
+            <button href="../contribute.html" class="btn btn-primary btn-sm">Check It Out</button>
+          </div>
+          <a href="../contribute.html"><span class="article-link"></span></a>
+        </div>
+        <div class="article-card rounded-lg">
+          <div class="article-teaser rounded-lg" id="disaggregate-teaser">
+            <div class="row">
+              <div class="teaser-title">
+                <h2 class='text-white'>You Should Disaggregate</h2>
+                <p class='text-white'></p>
+              </div>
+              <div class="article-preview">
+                <p class="truncate-overflow">I strongly suggest you play at mid night. [B]ecause when people get tired they don’t want to play around arcane combo. I get very insane winrate at mid night.</p> 
+              </div>
+            </div>
+          </div>
+          <a href="../articles/disaggregate.html"><span class="article-link"></span></a>
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- Footer -->
+    <footer class="py-3 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; 30for30 2019</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+  </div>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
