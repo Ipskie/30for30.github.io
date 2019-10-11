@@ -373,7 +373,7 @@ blockquote p {
   margin-bottom:0.15rem;
 }
 /* keep the real days a consistent width */
-.ghost-day{
+ghost-day{
   background-color: transparent;
   flex:1 0 12rem;
   height: 0;
