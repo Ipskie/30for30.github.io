@@ -139,14 +139,13 @@
               for more data.</p>
         </div>
         <!-- /.article-container -->
-        <div class="article-card rounded-lg">
-          <div class="contribute-teaser rounded-lg">
-            <h2 class='text-white'>Contribute Today!</h2>
-            <p class='text-white'>Free, Public Data</p>
-            <button href="../contribute.html" class="btn btn-primary btn-sm">Check It Out</button>
-          </div>
-          <a href="../contribute.html"><span class="article-link"></span></a>
-        </div>
+        <div id="contribute"></div>
+        <script>
+          var link = document.querySelector('link[rel="import"]');
+          var contribute = link.import.querySelector('template.contribute');
+          var clone = document.importNode(contribute.content, true);
+          document.querySelector('#contribute').appendChild(clone);
+        </script>
         <div class="article-card rounded-lg">
           <div class="article-teaser rounded-lg" id="winrate-teaser">
             <div class="row">

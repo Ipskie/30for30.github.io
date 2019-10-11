@@ -175,7 +175,7 @@ snippet{
 }
 
 /* special card for calling contributors */
-.contribute-teaser{
+#contribute-teaser{
   position: relative;
   width: 100%;
   height:100%;
