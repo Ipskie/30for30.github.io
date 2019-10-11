@@ -6,45 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>30for30</title>
+  <title class="title">30for30</title>
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/small-business.css" rel="stylesheet">
   <!-- Favicon -->
   <link href="/icons/favicon.png" rel="shortcut icon" type="image/png" />
+  <!-- import -->
+  <link rel="import" href="../import.html">
+  <!-- Title -->
 </head>
 
 <body>
   <div id="page-container">
     <div id="content-wrap">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="../index.html">30for30</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="articles.html">Articles</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contribute.html">Contribute</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="faq.html">FAQ</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <script>
+        var section = "#nav-data"
+        var link = document.querySelector('link[rel="import"]');
+
+        var header = link.import.querySelector('template.nav');
+        var clone = document.importNode(header.content, true);
+        document.querySelector('#content-wrap').appendChild(clone);
+
+        var options = link.import.querySelector(section);
+        var clone = document.importNode(options.content, true);
+        document.querySelector('#nav-options').appendChild(clone);
+      </script>
       <!-- Heading Row -->
       <div class="row dark-hero">
         <div class="container">
@@ -533,13 +521,13 @@
       </div>
       <!-- /.container -->
     </div>
-    <!-- Footer -->
-    <footer class="py-3 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; 30for30 2019</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+    <div id="footer"></div>
+    <script>
+      var link = document.querySelector('link[rel="import"]');
+      var footer = link.import.querySelector('template.footer');
+      var clone = document.importNode(footer.content, true);
+      document.querySelector('#footer').appendChild(clone);
+    </script>
   </div>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

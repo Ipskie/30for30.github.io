@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,48 +12,37 @@
   <!-- Custom styles for this template -->
   <link href="css/small-business.css" rel="stylesheet">
   <!-- Favicon -->
-  <link href="/icons/favicon.png" rel="shortcut icon" type="image/png"/>
+  <link href="/icons/favicon.png" rel="shortcut icon" type="image/png" />
+  <!-- import -->
+  <link rel="import" href="../import.html">
 </head>
+
 <body>
   <div id="page-container">
     <div id="content-wrap">
       <!-- Navigation -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="../index.html">30for30</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="articles.html">Articles</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contribute.html">Contribute</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="faq.html">FAQ</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <script>
+        var section = "#nav-contribute"
+        var link = document.querySelector('link[rel="import"]');
+
+        var header = link.import.querySelector('template.nav');
+        var clone = document.importNode(header.content, true);
+        document.querySelector('#content-wrap').appendChild(clone);
+
+        var options = link.import.querySelector(section);
+        var clone = document.importNode(options.content, true);
+        document.querySelector('#nav-options').appendChild(clone);
+      </script>
       <!-- Heading Row -->
       <div class="row dark-hero">
         <div class="container">
           <div class="row">
             <div class="page-title">
-              <h1 >FAQ</h1>
+              <h1>FAQ</h1>
               <p>Frequently Asked Questions</p>
             </div>
             <div class="hero-img-container">
-              <div id="faq-hero" class="hero-img"></div>  
+              <div id="faq-hero" class="hero-img"></div>
             </div>
           </div>
         </div>
@@ -61,32 +51,40 @@
       <!-- Page Content -->
       <div class="container">
         <div class="card my-5">
-            <div class="card-body">
-              <div class="hash-anchor" id="mobile"></div>
-              <a href="#mobile"><h5 class="text-black">I play Hearthstone on mobile / my phone / tablet, can I contribute data?</h5></a>
-            </div>
-            <div class="card-lower">
-                <p>Thank you for wanting to contribute!</p> 
-                <p>Unfortunately, our collection system is built on Hearthstone Deck Tracker for Windows, which has an API and supports plugins.</p>
-                <p>If we develop a mobile solution, we'll let you know!</p>
-            </div>
+          <div class="card-body">
+            <div class="hash-anchor" id="mobile"></div>
+            <a href="#mobile">
+              <h5 class="text-black">I play Hearthstone on mobile / my phone / tablet, can I contribute data?</h5>
+            </a>
           </div>
+          <div class="card-lower">
+            <p>Thank you for wanting to contribute!</p>
+            <p>Unfortunately, our collection system is built on Hearthstone Deck Tracker for Windows, which has an API
+              and supports plugins.</p>
+            <p>If we develop a mobile solution, we'll let you know!</p>
+          </div>
+        </div>
         <div class="card my-5">
           <div class="card-body">
             <div class="hash-anchor" id="privacy"></div>
-            <a href="#privacy"><h5 class="text-black">I have privacy concerns about contributing data.</h5></a>
+            <a href="#privacy">
+              <h5 class="text-black">I have privacy concerns about contributing data.</h5>
+            </a>
           </div>
           <div class="card-lower">
             <p>Data Drinker does not collect any information about the player (i.e. you, the person).</p>
-            <p>We collect game data and metadata, and take steps to ensure it cannot be used maliciously.</p>  
-            <p>We take the privacy of our contributors seriously, and have <a href="privacy.html#protections">protections</a> in place to ensure it is not breached.</p>
+            <p>We collect game data and metadata, and take steps to ensure it cannot be used maliciously.</p>
+            <p>We take the privacy of our contributors seriously, and have <a
+                href="privacy.html#protections">protections</a> in place to ensure it is not breached.</p>
             <p>For more information, please check our <a href="privacy.html">privacy page</a>.</p>
           </div>
         </div>
         <div class="card my-5">
           <div class="card-body">
             <div class="hash-anchor" id="bug"></div>
-            <a href="#bug"><h5 class="text-black">I tried to use the Data Drinker plugin, but ran into a problem. What gives?</h5></a>
+            <a href="#bug">
+              <h5 class="text-black">I tried to use the Data Drinker plugin, but ran into a problem. What gives?</h5>
+            </a>
           </div>
           <div class="card-lower">
             <p>We're sorry about that.</p>
@@ -96,7 +94,9 @@
         <div class="card my-5">
           <div class="card-body">
             <div class="hash-anchor" id="casual"></div>
-            <a href="#casual"><h5 class="text-black">I play infrequently / don't reach a high rank, should I still contribute data?</h5></a>
+            <a href="#casual">
+              <h5 class="text-black">I play infrequently / don't reach a high rank, should I still contribute data?</h5>
+            </a>
           </div>
           <div class="card-lower">
             <p>Absolutely!</p>
@@ -107,16 +107,17 @@
       </div>
       <!-- /.container -->
     </div>
-    <!-- Footer -->
-    <footer class="py-3 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; 30for30 2019</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+    <div id="footer"></div>
+    <script>
+      var link = document.querySelector('link[rel="import"]');
+      var footer = link.import.querySelector('template.footer');
+      var clone = document.importNode(footer.content, true);
+      document.querySelector('#footer').appendChild(clone);
+    </script>
   </div>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
