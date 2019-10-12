@@ -1,0 +1,45 @@
+:root{
+    --card-margin:0.625rem;
+    --card-basis:12rem;
+}
+
+.data-month {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--dd-blue);
+}
+
+.data-month .row {
+    margin: 0;
+}
+
+.data-month .card-body {
+    padding: 0.5rem;
+}
+
+.data-month .card-footer {
+    display: flex;
+    justify-content: center;
+}
+.data-day {
+    min-width: var(--card-basis);
+}
+
+.data-day p {
+    margin-bottom: 0.15rem;
+}
+
+.col-data-day {
+    margin: var(--card-margin);
+    flex: 1 0 var(--card-basis);
+}
+
+/* keep the day-cards a consistent width */
+
+ghost-day {
+    background-color: transparent;
+    flex: 1 0 var(--card-basis);
+    height: 0;
+    margin-left: var(--card-margin);
+    margin-right: var(--card-margin);
+}

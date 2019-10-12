@@ -10,42 +10,34 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
-  <link href="css/index.css" rel="stylesheet">
+  <link href="css/30for30.css" rel="stylesheet">
   <!-- Favicon -->
   <link href="/icons/favicon.png" rel="shortcut icon" type="image/png" />
-  <!-- import -->
-  <link rel="import" href="../import.html">
 </head>
 
 <body>
   <div id="page-container">
     <div id="content-wrap">
       <!-- Navigation -->
-      <script>
-        var section = "#nav-home"
-        var link = document.querySelector('link[rel="import"]');
-
-        var header = link.import.querySelector('template.nav');
-        var clone = document.importNode(header.content, true);
-        document.querySelector('#content-wrap').appendChild(clone);
-
-        var options = link.import.querySelector(section);
-        var clone = document.importNode(options.content, true);
-        document.querySelector('#nav-options').appendChild(clone);
+      <div id="header"></div>
+      <script type=module>
+        import * as templates from '../imports.js';
+        document.querySelector('#header').innerHTML = templates.navbar
+        document.querySelector('#nav-options').innerHTML = templates.nav_home
       </script>
       <!-- Heading Row -->
-      <div class="row dark-hero">
+      <div class="row dark-hero index-height">
         <div class="container">
           <div class="row">
-            <div class="page-title">
+            <div class="page-title index-height">
               <h1>Welcome to</h1>
               <h1>Data Drinker</h1>
               <p>Hearthstone Data </p>
               <p>by the community,</p>
               <p>for the community</p>
             </div>
-            <div class="hero-img-container" id="index-img-container">
-              <div id="index-hero" class="hero-img" alt="header image"></div>
+            <div class="hero-img-container index-height">
+              <div id="index-hero" class="hero-img index-height" alt="header image"></div>
             </div>
           </div>
         </div>
@@ -96,21 +88,17 @@
           <a href="./articles/disaggregate.html"><span class="article-link"></span></a>
         </div>
         <div id="contribute"></div>
-        <script>
-          var link = document.querySelector('link[rel="import"]');
-          var contribute = link.import.querySelector('template.contribute');
-          var clone = document.importNode(contribute.content, true);
-          document.querySelector('#contribute').appendChild(clone);
+        <script type=module>
+          import * as templates from '../imports.js';
+          document.querySelector('#contribute').innerHTML = templates.contribute
         </script>
       </div>
       <!-- /.container -->
     </div>
     <div id="footer"></div>
-    <script>
-      var link = document.querySelector('link[rel="import"]');
-      var footer = link.import.querySelector('template.footer');
-      var clone = document.importNode(footer.content, true);
-      document.querySelector('#footer').appendChild(clone);
+    <script type=module>
+      import * as templates from '../imports.js';
+      document.querySelector('#footer').innerHTML = templates.footer
     </script>
   </div>
   <!-- Bootstrap core JavaScript -->

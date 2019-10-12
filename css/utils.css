@@ -1,0 +1,33 @@
+/* util modifications */
+
+li {
+    margin-bottom: 5px;
+}
+
+ul, ol {
+    margin: 0;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-dark {
+    background-color: #343a40!important
+}
+
+.text-black {
+    color: black;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.centered {
+    align-content: center;
+}
+
+.text-right {
+    float: right;
+}

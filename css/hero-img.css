@@ -1,0 +1,92 @@
+:root {
+    --title-height: 15rem;
+    --title-height-index: 20rem;
+}
+
+/* hero images at the top of the page */
+
+.dark-hero {
+    background-color: rgb(5, 5, 5);
+    width: 100%;
+    height: var(--title-height);
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    z-index: 2;
+}
+
+.hero-img {
+    width: 100%;
+    height: var(--title-height);
+}
+
+.hero-img-container {
+    position: absolute;
+    width: 100%;
+    height: var(--title-height);
+    z-index: 1;
+    right: 0;
+}
+
+#privacy-hero {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0)30%, rgb(0, 0, 0)), url('/images/privacy2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#faq-hero {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0)30%, rgb(0, 0, 0)), url('/images/faq.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contribute-hero {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0)30%, rgb(0, 0, 0)), url('/images/contribute.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#articles-hero {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0)30%, rgb(0, 0, 0)), url('/images/article.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#dd-hero {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0)30%, rgb(0, 0, 0)), url('/images/lifedrinker.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-title {
+    height: var(--title-height);
+    padding: 15px;
+    z-index: 2;
+}
+
+.page-title>h1 {
+    width: 10rem;
+    color: white;
+}
+
+.page-title>p {
+    width: var(--title-width);
+    color: white;
+    margin-bottom: 0.3rem;
+}
+
+#index-hero {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0)40%, rgb(0, 0, 0)), url('/images/lifedrinker.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.index-height {
+    height: var(--title-height-index)!important;
+}

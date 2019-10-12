@@ -1,0 +1,156 @@
+@import "hero-img.css";
+@import "data-card.css";
+@import "teaser-card.css";
+@import "utils.css";
+:root {
+  --dd-blue: rgba(172, 215, 255, 0.109);
+}
+
+body {
+  padding-top: 56px;
+  min-height: 100vh;
+}
+
+.card-lower {
+  padding: .75rem 1.25rem;
+  background-color: var(--dd-blue);
+  border-top: 1px solid rgba(0, 0, 0, .125)
+}
+
+/*  */
+
+.card-title {
+  position: relative;
+  margin-bottom: 0;
+}
+
+a>h5 {
+  margin: 0;
+}
+
+footer {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+/* prevents the footer from floating on short pages */
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 4.4rem;
+  /* Footer height */
+}
+
+/* buttons with icons */
+
+.btn-primary {
+  color: #fff;
+  background-color: rgb(89, 172, 252);
+  border-color: rgb(81, 157, 228);
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: rgb(79, 153, 223);
+  border-color: rgb(69, 133, 194)
+}
+
+.svg-inline {
+  height: 1.25rem;
+  margin-right: 5px;
+}
+
+/* styling for inline code snippets */
+
+snippet {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  color: #666;
+  font-family: monospace;
+  font-size: 1.25rem;
+  padding: 0.25em 0.5em;
+}
+
+/* prevents the navbar from covering the content when following hash links */
+
+.hash-anchor {
+  position: relative;
+  top: -90px;
+  /*56px (navbar) + 34px (card)*/
+}
+
+/* styling for the articles */
+
+.article-container {
+  position: relative;
+  background-color: rgb(246, 251, 255);
+  margin-top: -3rem;
+  z-index: 4;
+  padding: 2rem;
+  font-size: 130%;
+  line-height: 1.6
+}
+
+.img-container {
+  width: 100%;
+  align-content: center;
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+}
+
+.img-container>img {
+  width: 100%;
+}
+
+.img-container>p {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+/* block quote styling */
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p {
+  display: inline;
+}
+
+/* contact form iframe */
+
+#contact {
+  width: 100%;
+  height: 397px;
+  margin: 0;
+  z-index: 2;
+}
+
+/* footer */
+
+.copyright {
+  flex: auto;
+  color: white;
+}
+
+#footer .row{
+  margin:0;
+  padding:0.5rem;
+}
+
+/* header */
+
+#nav-options li:last-child a{
+  padding-right:0;
+}
