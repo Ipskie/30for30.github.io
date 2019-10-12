@@ -1,6 +1,6 @@
 
 export var navbar =
-`
+    `
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
         <a class="navbar-brand" href="../index.html">30for30</a>
@@ -17,27 +17,25 @@ export var navbar =
 </nav>
 `
 export var nav_home =
-`
-    <div id="nav-home">
-        <li class="nav-item">
-            <a class="nav-link active" href="../index.html">Home
-            <span class="sr-only">(current)</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="../articles.html">Articles</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="../contribute.html">Contribute</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="../data.html">Data</a>
-        </li>
-    </div>
+    `
+<li class="nav-item">
+    <a class="nav-link active" href="../index.html">Home
+    <span class="sr-only">(current)</span>
+    </a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="../articles.html">Articles</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="../contribute.html">Contribute</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="../data.html">Data</a>
+</li>
 `
 
 export var nav_articles =
-`
+    `
 <li class="nav-item">
     <a class="nav-link" href="../index.html">Home
         <span class="sr-only">(current)</span>
@@ -54,7 +52,7 @@ export var nav_articles =
 </li>
 `
 export var nav_contribute =
-`
+    `
 <li class="nav-item">
     <a class="nav-link" href="../index.html">Home
         <span class="sr-only">(current)</span>
@@ -72,7 +70,7 @@ export var nav_contribute =
 `
 
 export var nav_data =
-`
+    `
 <li class="nav-item">
     <a class="nav-link" href="../index.html">Home
         <span class="sr-only">(current)</span>
@@ -90,7 +88,7 @@ export var nav_data =
 `
 
 export var nav_none =
-`
+    `
 <li class="nav-item">
     <a class="nav-link" href="../index.html">Home
         <span class="sr-only">(current)</span>
@@ -108,7 +106,7 @@ export var nav_none =
 `
 
 export var contribute =
-`
+    `
 <div class="article-card rounded-lg">
     <div class="rounded-lg" id="contribute-teaser">
         <h2 class='text-white'>Contribute Today!</h2>
@@ -118,8 +116,8 @@ export var contribute =
     <a href="../contribute.html"><span class="article-link"></span></a>
 </div>
 `
-export var footer = 
-`
+export var footer =
+    `
 <!-- Footer Template -->
 <footer class="py-3 bg-dark">
     <div class="container">

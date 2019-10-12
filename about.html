@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>30for30</title>
+  <title>About Us</title>
   <!-- Bootstrap core CSS -->
   <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
@@ -18,24 +18,23 @@
 <body>
   <div id="page-container">
     <div id="content-wrap">
-      <!-- Navigation -->
       <div id="header"></div>
       <script type=module>
         import * as templates from '../imports.js';
         document.querySelector('#header').innerHTML = templates.navbar
-        document.querySelector('#nav-options').innerHTML = templates.nav_none
+        document.querySelector('#nav-options').innerHTML = templates.nav_home
       </script>
+      <!-- Navigation -->
       <!-- Heading Row -->
       <div class="row dark-hero">
         <div class="container">
           <div class="row">
             <div class="page-title">
-              <h1>Contact</h1>
-              <p>Feedback & </p>
-              <p>Bug Reports</p>
+              <h1>About Us</h1>
+              <p></p>
             </div>
             <div class="hero-img-container">
-              <div id="bug-hero" class="hero-img" alt="header image"></div>
+              <div id="about-hero" class="hero-img" alt="header image"></div>
             </div>
           </div>
         </div>
@@ -44,12 +43,19 @@
       <!-- Page Content -->
       <div class="container">
         <div class="article-container rounded-lg">
-          <p>Lorem Ipsum Dolor Sit Amet</p>
-          <iframe id="contact"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSf6zvg0BMIBb5GknoJjdQ-NLk-YBud-Ida91-9HbbFTJdFASQ/viewform?embedded=true"
-            frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
+          <h3>Open Data</h3>
+          <p>When Data Drinker started, Hearthstone data was controlled by a few large organizations. Our goal is to open meta-game analysis to the community, so that anyone with the inclination can assemble meaningful data about the state of the game.</p>
+          <p>To make this possible, 30for30 collects and releases game replays submitted by our contributors and collected through <a href="https://hsreplay.net/downloads/">Hearthstone Deck Tracker</a>.</p>
+          <br>
+          <h3>Project Goals</h3>
+          <p>We have some ideas for meta game analysis, but nothing to show right now. Come back later, or try doing your own analysis!</p>
         </div>
-        <!-- /.container -->
+        <!-- /.article-container -->
+        <div id="contribute"></div>
+        <script type=module>
+          import * as templates from '../imports.js';
+          document.querySelector('#contribute').innerHTML = templates.contribute
+        </script>
       </div>
       <div id="footer"></div>
       <script type=module>

@@ -32,9 +32,9 @@
             <div class="page-title index-height">
               <h1>Welcome to</h1>
               <h1>Data Drinker</h1>
-              <p>Hearthstone Data </p>
-              <p>by the community,</p>
-              <p>for the community</p>
+              <p class="p-wide">Hearthstone Data </p>
+              <p class="p-wide">by the community,</p>
+              <p class="p-wide">for the community</p>
             </div>
             <div class="hero-img-container index-height">
               <div id="index-hero" class="hero-img index-height" alt="header image"></div>
@@ -45,53 +45,52 @@
       <!-- /.row -->
       <!-- Page Content -->
       <div class="container">
-        <div class="article-card rounded-lg">
-          <div class="article-teaser rounded-lg" id="winrate-teaser">
-            <div class="row">
-              <div class="teaser-title">
-                <h2 class='text-white'>About Us</h2>
-                <p class='text-white'> The Data Drinker Project</p>
-              </div>
-              <div class="article-preview">
-                <p class="truncate-overflow">Lorem Ipsum Dolor Sit Amet</p>
-              </div>
-            </div>
-          </div>
-          <a href="./articles/about.html"><span class="article-link"></span></a>
-        </div>
-        <div class="article-card rounded-lg">
-          <div class="article-teaser rounded-lg" id="uncertainty-teaser">
-            <div class="row">
-              <div class="teaser-title">
-                <h2 class='text-white'>Data Distribution</h2>
-                <p class='text-white'>Downloading & Using Replay Data</p>
-              </div>
-              <div class="article-preview">
-                <p class="truncate-overflow">Lorem Ipsum Dolor Sit Amet</p>
-              </div>
-            </div>
-          </div>
-          <a href="./404.html"><span class="article-link"></span></a>
-        </div>
-        <div class="article-card rounded-lg">
-          <div class="article-teaser rounded-lg" id="disaggregate-teaser">
-            <div class="row">
-              <div class="teaser-title">
-                <h2 class='text-white'>Articles</h2>
-                <p class='text-white'>Hearthstone Data Discussion</p>
-              </div>
-              <div class="article-preview">
-                <p class="truncate-overflow">As seen on reddit QQ</p>
-              </div>
-            </div>
-          </div>
-          <a href="./articles/disaggregate.html"><span class="article-link"></span></a>
-        </div>
         <div id="contribute"></div>
         <script type=module>
           import * as templates from '../imports.js';
           document.querySelector('#contribute').innerHTML = templates.contribute
         </script>
+        <div class="row">
+          <div class='col'>
+            <div class="article-card rounded-lg">
+              <div class="article-teaser rounded-lg" id="about-hero">
+                <div class="row">
+                  <div class="teaser-title">
+                    <h2 class='text-white'>About Us</h2>
+                    <p class='text-white'> The Data Drinker Project</p>
+                  </div>
+                </div>
+              </div>
+              <a href="./about.html"><span class="article-link"></span></a>
+            </div>
+          </div>
+          <div class='col'>
+            <div class="article-card rounded-lg">
+              <div class="article-teaser rounded-lg" id="articles-hero">
+                <div class="row">
+                  <div class="teaser-title">
+                    <h2 class='text-white'>Articles</h2>
+                    <p class='text-white'>Hearthstone Data Discussion</p>
+                  </div>
+                </div>
+              </div>
+              <a href="./articles.html"><span class="article-link"></span></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="article-card rounded-lg">
+          <div class="article-teaser rounded-lg" id="data-hero">
+            <div class="row">
+              <div class="teaser-title">
+                <h2 class='text-white'>Data Distribution</h2>
+                <p class='text-white'>Download & Use Replay Data</p>
+              </div>
+            </div>
+          </div>
+          <a href="./data.html"><span class="article-link"></span></a>
+        </div>
       </div>
       <!-- /.container -->
     </div>

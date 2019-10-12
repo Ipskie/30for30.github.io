@@ -1,3 +1,8 @@
+/* specifically for the index page */
+.col > .article-card{
+    margin:0;
+}
+
 .article-card {
     position: relative;
     background-color: rgb(246, 251, 255);
@@ -45,7 +50,7 @@
     min-height: 100%;
     background: #ffffffd5;
     position: relative;
-    padding: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
 }
 
 .article-preview>p {
@@ -59,7 +64,10 @@
 
 .teaser-title {
     flex: auto;
-    margin: 2rem;
+    margin: 1rem 2rem 1rem 2rem;
+}
+.teaser-title p{
+    width:10rem;
 }
 
 .truncate-overflow {

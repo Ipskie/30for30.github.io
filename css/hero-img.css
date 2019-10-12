@@ -70,7 +70,7 @@
 }
 
 .page-title>h1 {
-    width: 10rem;
+    width: 15rem;
     color: white;
 }
 
@@ -78,10 +78,39 @@
     width: var(--title-width);
     color: white;
     margin-bottom: 0.3rem;
+    width:10rem;
+    font-size: 125%;
 }
 
 #index-hero {
     background: linear-gradient(to left, rgba(0, 0, 0, 0)40%, rgb(0, 0, 0)), url('/images/lifedrinker.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#lost-hero {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0)40%, rgb(0, 0, 0)), url('/images/lost.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#about-hero {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0)40%, rgb(0, 0, 0)), url('/images/about.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#data-hero {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0)40%, rgb(0, 0, 0)), url('/images/data.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bug-hero {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0)40%, rgb(0, 0, 0)), url('/images/bug.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

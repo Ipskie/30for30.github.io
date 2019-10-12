@@ -154,3 +154,10 @@ blockquote p {
 #nav-options li:last-child a{
   padding-right:0;
 }
+
+.col{
+    margin: .75rem 0 .75rem 0;
+}
+.p-wide{
+    width:15rem!important;
+}
