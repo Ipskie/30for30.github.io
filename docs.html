@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Contribute</title>
+  <title>Docs</title>
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
@@ -23,15 +23,15 @@
       <script type=module>
         import * as templates from '../imports.js';
         document.querySelector('#header').innerHTML = templates.navbar
-        document.querySelector('#nav-options').innerHTML = templates.nav_contribute
+        document.querySelector('#nav-options').innerHTML = templates.nav_data
       </script>
       <!-- Heading Row -->
       <div class="row dark-hero">
         <div class="container">
           <div class="row">
             <div class="page-title">
-              <h1>Contribute</h1>
-              <p>Volunteer Data Today!</p>
+              <h1>Docs</h1>
+              <p>Using Replay Data</p>
             </div>
             <div class="hero-img-container">
               <div id="contribute-hero" class="hero-img" alt="header image"></div>
@@ -42,32 +42,19 @@
       <!-- /.row -->
       <!-- Page Content -->
       <div class="container">
-        <div class="card my-5 lblue">
-          <div class="card-body">
-            <div class="hash-anchor" id="null"></div>
-            <h2 class="text-black">Privacy</h2>
-            <p>30for30 is <a href="about.html">committed to open data</a>. </p>
-            <p>Before contributing, please note that the game replays you submit <b>will be shared publicly</b>, with
-              appropriate <a href="privacy.html#protections">protections</a>.</p>
-            <p>If you've checked our <a href='privacy.html'>privacy page</a> and are comfortable with our terms, please proceed.</p>
-          </div>
-        </div>
         <div class="card my-5">
+          <div class="card-footer">
+            <h2>Sample <snippet class="rounded-lg">.log</snippet>
+            </h2>
+          </div>
           <div class="card-body">
-            <div class="hash-anchor" id="install"></div>
-            <a href="#install">
-              <h2 class="text-black">Contribute</h2>
-            </a>
-            <p>Thank you for contributing! To set up Data Drinker:</p>
-            <ul>
-              <li>Download the plugin <a
-                  href="https://www.dropbox.com/s/8g88pnaficgga9c/Data%20Drinker.zip?dl=1">here</a>.</li>
-              <li>Add the plugin to <a href="https://hsreplay.net/downloads/?hl=en">Hearthstone Deck Tracker</a> (<a
-                  href="https://github.com/HearthSim/Hearthstone-Deck-Tracker/wiki/Available-Plugins#method-1-drag-and-drop">how
-                  to add</a>)</li>
-              <li>Play a few games</li>
-              <li>That’s it!</li>
-            </ul>
+            <div class="snippet-block">
+              <div id="log" style="overflow-y:scroll;height:30rem;"></div>
+            </div>
+            <script type=module>
+                import * as samples from './templates/samples.js';
+                document.querySelector('#log').innerHTML = samples.log
+              </script>
           </div>
           <div class="card-footer">
             <a href="https://www.dropbox.com/s/8g88pnaficgga9c/Data%20Drinker.zip?dl=1"
@@ -79,11 +66,12 @@
         </div>
         <div class="card my-5">
           <div class="card-body">
-            <div class="hash-anchor" id="update"></div>
-            <a href="#update">
-              <h2 class="text-black">Update</h2>
+            <div class="hash-anchor" id="repo"></div>
+            <a href="#repo">
+              <h2 class="text-black">Interpreting Data</h2>
             </a>
-            <p>Latest Version: Data Drinker <snippet class="rounded-lg">0.4.0</snippet>
+            <p>We provide 2 file types: <snippet class="rounded-lg">.decklist</snippet> and <snippet class="rounded-lg">
+                .log</snippet>
             </p>
             <p>To update Data Drinker:</p>
             <ul>

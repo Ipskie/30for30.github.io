@@ -3,161 +3,191 @@
 @import "teaser-card.css";
 @import "utils.css";
 :root {
-  --dd-blue: rgba(172, 215, 255, 0.109);
+    --dd-blue: rgba(172, 215, 255, 0.109);
 }
 
 body {
-  padding-top: 56px;
-  min-height: 100vh;
+    padding-top: 56px;
+    min-height: 100vh;
 }
 
 .card-lower {
-  padding: .75rem 1.25rem;
-  background-color: var(--dd-blue);
-  border-top: 1px solid rgba(0, 0, 0, .125)
+    padding: .75rem 1.25rem;
+    background-color: var(--dd-blue);
+    border-top: 1px solid rgba(0, 0, 0, .125)
 }
 
 /*  */
 
 .card-title {
-  position: relative;
-  margin-bottom: 0;
+    position: relative;
+    margin-bottom: 0;
 }
 
 a>h5 {
-  margin: 0;
+    margin: 0;
 }
 
 footer {
-  display: block;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  bottom: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
 }
 
 /* prevents the footer from floating on short pages */
 
 #page-container {
-  position: relative;
-  min-height: 100vh;
+    position: relative;
+    min-height: 100vh;
 }
 
 #content-wrap {
-  padding-bottom: 4.4rem;
-  /* Footer height */
+    padding-bottom: 3.4rem;
+    /* Footer height */
 }
 
 /* buttons with icons */
 
 .btn-primary {
-  color: #fff;
-  background-color: rgb(89, 172, 252);
-  border-color: rgb(81, 157, 228);
+    color: #fff;
+    background-color: rgb(89, 172, 252);
+    border-color: rgb(81, 157, 228);
 }
 
 .btn-primary:hover {
-  color: #fff;
-  background-color: rgb(79, 153, 223);
-  border-color: rgb(69, 133, 194)
+    color: #fff;
+    background-color: rgb(79, 153, 223);
+    border-color: rgb(69, 133, 194)
 }
 
 .svg-inline {
-  height: 1.25rem;
-  margin-right: 5px;
+    height: 1.25rem;
+    margin-right: 5px;
 }
 
 /* styling for inline code snippets */
 
 snippet {
-  background: #f4f4f4;
-  border: 1px solid #ddd;
-  color: #666;
-  font-family: monospace;
-  font-size: 1.25rem;
-  padding: 0.25em 0.5em;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    color: #666;
+    font-family: monospace;
+    font-size: 1.25rem;
+    padding: 0.25em 0.5em;
+    border-radius:.3rem;
+}
+
+.snippet-block {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    color: #666;
+    font-family: monospace;
+    font-size: 1.25rem;
+    padding: 0.25em 0.5em;
+    border-radius:.3rem;
 }
 
 /* prevents the navbar from covering the content when following hash links */
 
 .hash-anchor {
-  position: relative;
-  top: -90px;
-  /*56px (navbar) + 34px (card)*/
+    position: relative;
+    top: -90px;
+    /*56px (navbar) + 34px (card)*/
 }
 
 /* styling for the articles */
 
 .article-container {
-  position: relative;
-  background-color: rgb(246, 251, 255);
-  margin-top: -3rem;
-  z-index: 4;
-  padding: 2rem;
-  font-size: 130%;
-  line-height: 1.6
+    position: relative;
+    background-color: rgb(246, 251, 255);
+    margin-top: -3rem;
+    z-index: 4;
+    padding: 2rem;
+    font-size: 130%;
+    line-height: 1.6;
 }
 
 .img-container {
-  width: 100%;
-  align-content: center;
-  margin-top: 2rem;
-  margin-bottom: .5rem;
+    width: 100%;
+    align-content: center;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
 }
 
 .img-container>img {
-  width: 100%;
+    width: 100%;
 }
 
 .img-container>p {
-  text-align: center;
-  margin: 0.5rem;
+    text-align: center;
+    margin: 0.5rem;
 }
 
 /* block quote styling */
 
 blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
 }
 
 blockquote p {
-  display: inline;
+    display: inline;
 }
 
 /* contact form iframe */
 
 #contact {
-  width: 100%;
-  height: 397px;
-  margin: 0;
-  z-index: 2;
+    width: 100%;
+    height: 950px;
+    margin: 0;
+    z-index: 2;
 }
 
 /* footer */
 
 .copyright {
-  flex: auto;
-  color: white;
+    flex: auto;
+    color: white;
 }
 
-#footer .row{
-  margin:0;
-  padding:0.5rem;
+footer {
+    padding: 1rem 0 1rem 0;
+}
+
+#footer .row {
+    margin: 0;
+    padding: 0;
+}
+
+#footer a {
+    color: rgb(255, 255, 255, .5)
+}
+
+#footer .col-md-1:last-child {
+    padding-right: 0!important;
+}
+
+@media(max-width:768px) {
+    #footer .col-md-1 {
+        display: none;
+    }
 }
 
 /* header */
 
-#nav-options li:last-child a{
-  padding-right:0;
+#nav-options li:last-child a {
+    padding-right: 0;
 }
 
-.col{
+.col {
     margin: .75rem 0 .75rem 0;
 }
-.p-wide{
-    width:15rem!important;
+
+.p-wide {
+    width: 15rem!important;
 }

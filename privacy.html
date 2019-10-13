@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>30for30</title>
+  <title>Privacy</title>
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
@@ -50,9 +50,9 @@
             </a>
           </div>
           <div class="card-lower">
-            <p>replays and decklists</p>
-            <p>Link to sample logs of my data</p>
-            <p>Lorem Ipsum Dolor Sit Amet</p>
+            <p>We collect the same <snippet class="rounded-lg">.hdtreplay</snippet> file as HS Replay, as well as your
+              decklist, rank, and format (Standard vs Wild).</p>
+            <p>For detailed information on the data, you can check our <a href="./docs.html">docs</a>.</p>
           </div>
         </div>
         <div class="card my-5">
@@ -65,11 +65,10 @@
           <div class="card-lower">
             <p>Data Drinker uses the Hearthstone Deck Tracker (HDT) <a
                 href="https://github.com/HearthSim/Hearthstone-Deck-Tracker/wiki/Available-Plugins">plugin API</a>.</p>
-            <p>Decklists are received through the HDT program. Replay data is fetched from the HDT folder on your
+            <p>We receive your decklist from hdt.exe, replay data is fetched from the HDT folder on your
               computer.</p>
-            <p>We welcome curious contributors to examine the plugin source, available <a
-                href="https://github.com/Ipskie/<a class=" navbar-brand"
-                href="../index.html">30for30</a>/tree/master/plugin">here</a>.</p>
+            <p>Curious contributors may examine the plugin source <a
+                href="https://github.com/Ipskie/30for30/tree/master/plugin">on Github</a>.</p>
           </div>
         </div>
         <div class="card my-5">
@@ -80,10 +79,34 @@
             </a>
           </div>
           <div class="card-lower">
-            <p></p>
-            <p>use of random user token</p>
-            <p>remove battle tags, smudge time stamps</p>
-            <p>Lorem Ipsum Dolor Sit Amet</p>
+            <b>Random User Token</b>
+            <p>Each contributor is assigned a random user token. This is the only way contributors are identified: we
+              will never (and can never) know your name, email, or other personal information.</p>
+            <b>Redaction</b>
+            <p>
+              <snippet class="rounded-lg">.hdtreplay</snippet> files contain your battletag (Player#9001) and a game
+              timestamp.
+              <br>
+              We redact your battletag and adjust the timestamp randomly (±18hrs), so that information your Hearthstone
+              habits is masked.
+            </p>
+          </div>
+        </div>
+        <div class="card my-5">
+          <div class="card-body">
+            <div class="hash-anchor" id="sharing"></div>
+            <a href="#sharing">
+              <h5 class="text-black">What data do you share?</h5>
+            </a>
+          </div>
+          <div class="card-lower">
+            <p>
+              Your decklists, rank, <snippet class="rounded-lg">.hdtreplay</snippet> files, and a <snippet
+                class="rounded-lg">.json</snippet> summary generated from those files will be uploaded to Dropbox and
+              <b>made available to the public</b> through our <a href="./data.html">data page</a>.</p>
+            <p>If you do not want your decklist shared publicly (e.g. you are preparing for a high stakes tournament) or
+              have concerns about privacy, you may disable Data Drinker from the plugin menu at any time.</p>
+            </p>
           </div>
         </div>
         <div class="card my-5">
@@ -104,10 +127,10 @@
             <h5 class="no-margin">Other Concerns</h5>
           </div>
           <div class="card-lower">
-            <p>If you have other questions regarding privacy, please visit our [CONTACT PAGE]</p>
+            <p>If you have other questions regarding privacy, please visit our <a href="./contact.html">contact
+                page</a>.</p>
           </div>
         </div>
-
       </div>
       <!-- /.container -->
     </div>

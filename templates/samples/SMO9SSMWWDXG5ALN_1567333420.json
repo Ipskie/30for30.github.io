@@ -1,0 +1,1484 @@
+{
+    "gamelog": [
+        "",
+        "player Turn 1",
+        "player draws Scarab Egg",
+        "player draws Dire Wolf Alpha",
+        "player draws Magic Carpet",
+        "opponent draws <entity id 47>",
+        "opponent draws Pharaoh Cat",
+        "opponent draws <entity id 59>",
+        "opponent draws Southsea Deckhand",
+        "opponent mulligans <entity id 47>, receives Hooked Scimitar",
+        "opponent mulligans <entity id 59>, receives Sap",
+        "mulligan complete",
+        "",
+        "player mulligans Scarab Egg, receives Flame Imp",
+        "player mulligans Dire Wolf Alpha, receives Knife Juggler",
+        "player mulligans Magic Carpet, receives Scarab Egg",
+        "mulligan complete",
+        "",
+        "player draws Flame Imp",
+        "Opening hand: Flame Imp, Flame Imp, Knife Juggler, Scarab Egg",
+        "player's Flame Imp enters play",
+        "player's Gul'dan takes 3 damage",
+        "",
+        "opponent Turn 1",
+        "opponent draws Backstab",
+        "opponent's Southsea Deckhand enters play (entity id 38 revealed)",
+        "",
+        "player Turn 2",
+        "player draws Dire Wolf Alpha",
+        "Opening hand: Flame Imp, Knife Juggler, Scarab Egg, Dire Wolf Alpha",
+        "player's Scarab Egg enters play",
+        "player's Flame Imp attacks opponent's Maiev Shadowsong for 3 damage",
+        "",
+        "opponent Turn 2",
+        "opponent draws Eviscerate",
+        "opponent's Southsea Deckhand attacks player's Flame Imp for 2 damage, takes None damage",
+        "player's Flame Imp died",
+        "opponent's Southsea Deckhand died",
+        "opponent's Sap enters play, targetting player's Scarab Egg (entity id 53 revealed)",
+        "player draws Scarab Egg",
+        "",
+        "player Turn 3",
+        "player draws Mecharoo",
+        "Opening hand: Flame Imp, Knife Juggler, Dire Wolf Alpha, Mecharoo",
+        "player's Scarab Egg enters play",
+        "player's Mecharoo enters play",
+        "",
+        "opponent Turn 3",
+        "opponent draws <entity id 37>",
+        "opponent's Pharaoh Cat enters play (entity id 54 revealed)",
+        "opponent's Murmy enters play (entity id 84 revealed)",
+        "",
+        "player Turn 4",
+        "player draws EVIL Genius",
+        "Opening hand: Flame Imp, Knife Juggler, Dire Wolf Alpha, EVIL Genius",
+        "player's Knife Juggler enters play",
+        "player's Dire Wolf Alpha enters play",
+        "player's Scarab Egg gains effect <entity id None>",
+        "player's Mecharoo gains effect <entity id None>",
+        "player's Knife Juggler's <effect> triggers",
+        "player's Mecharoo attacks opponent's Pharaoh Cat for 2 damage, takes None damage",
+        "player's Mecharoo died",
+        "opponent's Pharaoh Cat died",
+        "player's Mecharoo's deathrattle triggers, summons Jo-E Bot",
+        "player's Jo-E Bot gains effect <entity id None>",
+        "player's Knife Juggler's <effect> triggers",
+        "opponent's Murmy died, summons Murmy",
+        "player's Scarab Egg attacks opponent's Murmy for 1 damage, takes None damage",
+        "opponent's Murmy died",
+        "",
+        "opponent Turn 4",
+        "opponent draws EVIL Miscreant",
+        "opponent's Backstab enters play, targetting player's Knife Juggler (entity id 34 revealed)",
+        "player's Knife Juggler takes 2 damage",
+        "player's Knife Juggler died",
+        "opponent's Eviscerate enters play, targetting player's Dire Wolf Alpha (entity id 36 revealed)",
+        "player's Dire Wolf Alpha takes 4 damage",
+        "player's Dire Wolf Alpha died",
+        "opponent's The Coin enters play (entity id 68 revealed)",
+        "opponent's EVIL Miscreant enters play (entity id 58 revealed)",
+        "",
+        "player Turn 5",
+        "player draws Saronite Taskmaster",
+        "Opening hand: Flame Imp, EVIL Genius, Saronite Taskmaster",
+        "player's EVIL Genius enters play, targetting player's Scarab Egg",
+        "player's Scarab Egg died",
+        "player's Scarab Egg's deathrattle triggers, summons Scarab + Scarab + Scarab",
+        "player's Goblin Lackey enters play, targetting player's EVIL Genius",
+        "player's EVIL Genius gains effect <entity id None>",
+        "player's EVIL Genius attacks opponent's EVIL Miscreant for 3 damage, takes None damage",
+        "player's Ethereal Lackey enters play",
+        "player's Ethereal Lackey discovers ['Spirit Bomb', 'Fiendish Circle', \"Rafaam's Scheme\"]",
+        "player draws Spirit Bomb",
+        "player's Jo-E Bot attacks opponent's EVIL Miscreant for 1 damage, takes None damage",
+        "player's Jo-E Bot died",
+        "opponent's EVIL Miscreant died",
+        "player's Flame Imp enters play",
+        "player's Gul'dan takes 3 damage",
+        "",
+        "opponent Turn 5",
+        "opponent draws Backstab",
+        "opponent's Backstab enters play, targetting player's Flame Imp (entity id 49 revealed)",
+        "player's Flame Imp takes 2 damage",
+        "player's Flame Imp died",
+        "opponent's Hooked Scimitar enters play (entity id 44 revealed)",
+        "opponent's Hooked Scimitar gains effect <entity id None>",
+        "opponent's Faceless Lackey enters play (entity id 98 revealed), summons Bloodmage Thalnos",
+        "opponent's Goblin Lackey enters play, targetting opponent's Faceless Lackey (entity id 99 revealed)",
+        "opponent's Faceless Lackey gains effect Short Fuse",
+        "opponent's Faceless Lackey attacks player's EVIL Genius for 2 damage, takes None damage",
+        "player's EVIL Genius died",
+        "opponent's Faceless Lackey died",
+        "",
+        "player Turn 6",
+        "player draws Magic Carpet",
+        "Opening hand: Saronite Taskmaster, Spirit Bomb, Magic Carpet",
+        "player's Life Tap enters play",
+        "player draws Serpent Egg",
+        "player's Gul'dan takes 2 damage",
+        "player's Magic Carpet enters play",
+        "player's Saronite Taskmaster enters play",
+        "player's Magic Carpet's <effect> triggers",
+        "player's Saronite Taskmaster gains effect <entity id None>",
+        "player's Saronite Taskmaster attacks opponent's Bloodmage Thalnos for 3 damage, takes None damage",
+        "opponent's Bloodmage Thalnos died",
+        "opponent's Bloodmage Thalnos's deathrattle triggers",
+        "opponent draws EVIL Miscreant",
+        "player's Goblin Lackey attacks opponent's Goblin Lackey for 1 damage, takes None damage",
+        "player's Goblin Lackey died",
+        "opponent's Goblin Lackey died",
+        "player's Ethereal Lackey attacks opponent's Maiev Shadowsong for 1 damage",
+        "player's Scarab attacks opponent's Maiev Shadowsong for 1 damage",
+        "player's Scarab attacks opponent's Maiev Shadowsong for 1 damage",
+        "player's Scarab attacks opponent's Maiev Shadowsong for 1 damage",
+        "",
+        "opponent Turn 6",
+        "opponent draws SI:7 Agent",
+        "opponent's SI:7 Agent enters play (entity id 46 revealed)",
+        "opponent's EVIL Miscreant enters play (entity id 63 revealed)",
+        "opponent's Maiev Shadowsong attacks player's Saronite Taskmaster for 4 damage, takes None damage",
+        "player's Saronite Taskmaster died",
+        "player's Saronite Taskmaster's deathrattle triggers, summons Free Agent",
+        "",
+        "player Turn 7",
+        "player draws The Soularium",
+        "Opening hand: Spirit Bomb, Serpent Egg, The Soularium",
+        "player's The Soularium enters play",
+        "player draws Magic Carpet",
+        "player's Fleeting Soul enters Play",
+        "player draws Grim Rally",
+        "player's Fleeting Soul enters Play",
+        "player draws Saronite Taskmaster",
+        "player's Fleeting Soul enters Play",
+        "player's Magic Carpet enters play",
+        "player's Saronite Taskmaster enters play",
+        "player's Magic Carpet's <effect> triggers",
+        "player's Saronite Taskmaster gains effect <entity id None>",
+        "player's Magic Carpet's <effect> triggers",
+        "player's Saronite Taskmaster gains effect <entity id None>",
+        "player's Scarab attacks opponent's Free Agent for 1 damage",
+        "player's Grim Rally enters play, targetting player's Scarab",
+        "player's Scarab gains effect Grim Rally",
+        "player's Scarab gains effect <entity id None>",
+        "player's Ethereal Lackey gains effect <entity id None>",
+        "player's Magic Carpet gains effect Grim Rally",
+        "player's Magic Carpet gains effect Grim Rally",
+        "player's Saronite Taskmaster gains effect <entity id None>",
+        "player's Scarab died",
+        "player's Scarab attacks opponent's Free Agent for 2 damage",
+        "opponent's Free Agent died",
+        "player's Saronite Taskmaster attacks opponent's EVIL Miscreant for 5 damage, takes None damage",
+        "opponent's EVIL Miscreant died",
+        "player's Spirit Bomb enters play, targetting opponent's SI:7 Agent",
+        "opponent's SI:7 Agent takes 4 damage",
+        "player's Gul'dan takes 4 damage",
+        "opponent's SI:7 Agent died",
+        "player's Scarab attacks opponent's Maiev Shadowsong for 2 damage",
+        "player's Ethereal Lackey attacks opponent's Maiev Shadowsong for 2 damage",
+        "player's Magic Carpet attacks opponent's Maiev Shadowsong for 2 damage",
+        "",
+        "opponent Turn 7",
+        "opponent draws Eviscerate",
+        "opponent's Kobold Lackey enters play, targetting player's Ethereal Lackey (entity id 127 revealed)",
+        "player's Ethereal Lackey takes 2 damage",
+        "player's Ethereal Lackey died",
+        "opponent's Eviscerate enters play, targetting player's Saronite Taskmaster (entity id 57 revealed)",
+        "player's Saronite Taskmaster takes 4 damage",
+        "player's Saronite Taskmaster died",
+        "player's Saronite Taskmaster's deathrattle triggers, summons Free Agent",
+        "opponent's Faceless Lackey enters play (entity id 126 revealed), summons Doomsayer",
+        "opponent's Maiev Shadowsong attacks player's Scarab for 4 damage, takes None damage",
+        "player's Scarab died",
+        "opponent's Hooked Scimitar died",
+        "opponent's Dagger Mastery enters play, creates Wicked Knife",
+        "",
+        "player Turn 8",
+        "player draws Sinister Deal",
+        "Opening hand: Serpent Egg, Sinister Deal",
+        "player's Life Tap enters play",
+        "player draws Beaming Sidekick",
+        "player's Gul'dan takes 2 damage",
+        "player's Sinister Deal enters play",
+        "player's Sinister Deal discovers ['Kobold Lackey', 'Ethereal Lackey', 'Faceless Lackey']",
+        "player draws Ethereal Lackey",
+        "player's Ethereal Lackey enters play",
+        "player's Ethereal Lackey discovers ['Dark Possession', 'Impbalming', \"Rafaam's Scheme\"]",
+        "player draws Impbalming",
+        "player's Magic Carpet's <effect> triggers",
+        "player's Ethereal Lackey gains effect Flying High",
+        "player's Magic Carpet's <effect> triggers",
+        "player's Ethereal Lackey gains effect Flying High",
+        "player's Impbalming enters play, targetting opponent's Doomsayer",
+        "player's Worthless Imp enters Deck",
+        "player's Worthless Imp enters Deck",
+        "player's Worthless Imp enters Deck",
+        "opponent's Doomsayer died",
+        "player's Ethereal Lackey attacks opponent's Free Agent for 3 damage",
+        "opponent's Free Agent died",
+        "player's Scarab attacks opponent's Maiev Shadowsong for 2 damage",
+        "player's Magic Carpet attacks opponent's Maiev Shadowsong for 2 damage",
+        "player's Magic Carpet attacks opponent's Maiev Shadowsong for 2 damage",
+        "",
+        "opponent Turn 8",
+        "opponent draws <entity id 45>",
+        "opponent concedes"
+    ],
+    "known entities": {
+        "28": {
+            "controller": 1,
+            "entity_id": 28,
+            "entity_name": "Scarab Egg",
+            "card_id": "TRL_503",
+            "entityName": "Scarab Egg"
+        },
+        "4": {
+            "controller": 1,
+            "entity_id": 4,
+            "entity_name": "Dire Wolf Alpha",
+            "card_id": "EX1_162",
+            "entityName": "Dire Wolf Alpha"
+        },
+        "21": {
+            "controller": 1,
+            "entity_id": 21,
+            "entity_name": "Magic Carpet",
+            "card_id": "DAL_773",
+            "entityName": "Magic Carpet"
+        },
+        "64": {
+            "controller": 1,
+            "entity_id": 64,
+            "entity_name": "Gul'dan",
+            "card_id": "HERO_07",
+            "entityName": "Gul'dan"
+        },
+        "65": {
+            "controller": 1,
+            "entity_id": 65,
+            "entity_name": "Life Tap",
+            "card_id": "CS2_056",
+            "entityName": "Life Tap"
+        },
+        "66": {
+            "controller": 2,
+            "entity_id": 66,
+            "entity_name": "Maiev Shadowsong",
+            "card_id": "HERO_03a",
+            "entityName": "Maiev Shadowsong"
+        },
+        "67": {
+            "controller": 2,
+            "entity_id": 67,
+            "entity_name": "Dagger Mastery",
+            "card_id": "CS2_083b_H1",
+            "entityName": "Dagger Mastery"
+        },
+        "22": {
+            "controller": 1,
+            "entity_id": 22,
+            "entity_name": "Flame Imp",
+            "card_id": "EX1_319",
+            "entityName": "Flame Imp"
+        },
+        "24": {
+            "controller": 1,
+            "entity_id": 24,
+            "entity_name": "Flame Imp",
+            "card_id": "EX1_319",
+            "entityName": "Flame Imp"
+        },
+        "5": {
+            "controller": 1,
+            "entity_id": 5,
+            "entity_name": "Knife Juggler",
+            "card_id": "NEW1_019",
+            "entityName": "Knife Juggler"
+        },
+        "26": {
+            "controller": 1,
+            "entity_id": 26,
+            "entity_name": "Scarab Egg",
+            "card_id": "TRL_503",
+            "entityName": "Scarab Egg"
+        },
+        "38": {
+            "controller": 2,
+            "entity_id": 38,
+            "entity_name": "Southsea Deckhand",
+            "card_id": "CS2_146",
+            "entityName": "Southsea Deckhand"
+        },
+        "14": {
+            "controller": 1,
+            "entity_id": 14,
+            "entity_name": "Mecharoo",
+            "card_id": "BOT_445",
+            "entityName": "Mecharoo"
+        },
+        "54": {
+            "controller": 2,
+            "entity_id": 54,
+            "entity_name": "Pharaoh Cat",
+            "card_id": "ULD_186",
+            "entityName": "Pharaoh Cat"
+        },
+        "84": {
+            "controller": 2,
+            "entity_id": 84,
+            "entity_name": "Murmy",
+            "card_id": "ULD_723",
+            "entityName": "Murmy"
+        },
+        "18": {
+            "controller": 1,
+            "entity_id": 18,
+            "entity_name": "EVIL Genius",
+            "card_id": "DAL_606",
+            "entityName": "EVIL Genius"
+        },
+        "89": {
+            "controller": 1,
+            "entity_id": 89,
+            "entity_name": "Strength of the Pack",
+            "card_id": "EX1_162o",
+            "entityName": "Strength of the Pack"
+        },
+        "93": {
+            "controller": 2,
+            "entity_id": 93,
+            "entity_name": "Murmy",
+            "card_id": "ULD_723",
+            "entityName": "Murmy"
+        },
+        "91": {
+            "controller": 1,
+            "entity_id": 91,
+            "entity_name": "Jo-E Bot",
+            "card_id": "BOT_445t",
+            "entityName": "Jo-E Bot"
+        },
+        "92": {
+            "controller": 1,
+            "entity_id": 92,
+            "entity_name": "Strength of the Pack",
+            "card_id": "EX1_162o",
+            "entityName": "Strength of the Pack"
+        },
+        "88": {
+            "controller": 1,
+            "entity_id": 88,
+            "entity_name": "Strength of the Pack",
+            "card_id": "EX1_162o",
+            "entityName": "Strength of the Pack"
+        },
+        "58": {
+            "controller": 2,
+            "entity_id": 58,
+            "entity_name": "EVIL Miscreant",
+            "card_id": "DAL_415",
+            "entityName": "EVIL Miscreant"
+        },
+        "30": {
+            "controller": 1,
+            "entity_id": 30,
+            "entity_name": "Saronite Taskmaster",
+            "card_id": "TRL_363",
+            "entityName": "Saronite Taskmaster"
+        },
+        "101": {
+            "controller": 1,
+            "entity_id": 101,
+            "entity_name": "Ethereal Lackey",
+            "card_id": "DAL_741",
+            "entityName": "Ethereal Lackey"
+        },
+        "102": {
+            "controller": 1,
+            "entity_id": 102,
+            "entity_name": "Goblin Lackey",
+            "card_id": "DAL_739",
+            "entityName": "Goblin Lackey"
+        },
+        "103": {
+            "controller": 1,
+            "entity_id": 103,
+            "entity_name": "Scarab",
+            "card_id": "TRL_503t",
+            "entityName": "Scarab"
+        },
+        "104": {
+            "controller": 1,
+            "entity_id": 104,
+            "entity_name": "Scarab",
+            "card_id": "TRL_503t",
+            "entityName": "Scarab"
+        },
+        "105": {
+            "controller": 1,
+            "entity_id": 105,
+            "entity_name": "Scarab",
+            "card_id": "TRL_503t",
+            "entityName": "Scarab"
+        },
+        "109": {
+            "controller": 1,
+            "entity_id": 109,
+            "entity_name": "Spirit Bomb",
+            "card_id": "BOT_222",
+            "entityName": "Spirit Bomb",
+            "created_by": {
+                "controller": 1,
+                "entity_id": 101,
+                "entity_name": "Ethereal Lackey",
+                "card_id": "DAL_741",
+                "entityName": "Ethereal Lackey"
+            }
+        },
+        "98": {
+            "controller": 2,
+            "entity_id": 98,
+            "entity_name": "Faceless Lackey",
+            "card_id": "DAL_613",
+            "entityName": "Faceless Lackey"
+        },
+        "118": {
+            "controller": 2,
+            "entity_id": 118,
+            "entity_name": "Bloodmage Thalnos",
+            "card_id": "EX1_012",
+            "entityName": "Bloodmage Thalnos"
+        },
+        "99": {
+            "controller": 2,
+            "entity_id": 99,
+            "entity_name": "Goblin Lackey",
+            "card_id": "DAL_739",
+            "entityName": "Goblin Lackey"
+        },
+        "107": {
+            "controller": 1,
+            "entity_id": 107,
+            "entity_name": "Short Fuse",
+            "card_id": "DAL_739e",
+            "entityName": "Short Fuse"
+        },
+        "44": {
+            "controller": 2,
+            "entity_id": 44,
+            "entity_name": "Hooked Scimitar",
+            "card_id": "ULD_285",
+            "entityName": "Hooked Scimitar"
+        },
+        "11": {
+            "controller": 1,
+            "entity_id": 11,
+            "entity_name": "Magic Carpet",
+            "card_id": "DAL_773",
+            "entityName": "Magic Carpet"
+        },
+        "19": {
+            "controller": 1,
+            "entity_id": 19,
+            "entity_name": "Serpent Egg",
+            "card_id": "ULD_174",
+            "entityName": "Serpent Egg"
+        },
+        "46": {
+            "controller": 2,
+            "entity_id": 46,
+            "entity_name": "SI:7 Agent",
+            "card_id": "EX1_134",
+            "entityName": "SI:7 Agent"
+        },
+        "63": {
+            "controller": 2,
+            "entity_id": 63,
+            "entity_name": "EVIL Miscreant",
+            "card_id": "DAL_415",
+            "entityName": "EVIL Miscreant"
+        },
+        "123": {
+            "controller": 1,
+            "entity_id": 123,
+            "entity_name": "Flying High",
+            "card_id": "DAL_773e",
+            "entityName": "Flying High"
+        },
+        "128": {
+            "controller": 2,
+            "entity_id": 128,
+            "entity_name": "Free Agent",
+            "card_id": "TRL_363t",
+            "entityName": "Free Agent"
+        },
+        "10": {
+            "controller": 1,
+            "entity_id": 10,
+            "entity_name": "The Soularium",
+            "card_id": "BOT_568",
+            "entityName": "The Soularium"
+        },
+        "20": {
+            "controller": 1,
+            "entity_id": 20,
+            "entity_name": "Saronite Taskmaster",
+            "card_id": "TRL_363",
+            "entityName": "Saronite Taskmaster"
+        },
+        "27": {
+            "controller": 1,
+            "entity_id": 27,
+            "entity_name": "Grim Rally",
+            "card_id": "TRL_249",
+            "entityName": "Grim Rally"
+        },
+        "130": {
+            "controller": 1,
+            "entity_id": 130,
+            "entity_name": "Fleeting Soul",
+            "card_id": "BOT_568e",
+            "entityName": "Fleeting Soul"
+        },
+        "132": {
+            "controller": 1,
+            "entity_id": 132,
+            "entity_name": "Fleeting Soul",
+            "card_id": "BOT_568e",
+            "entityName": "Fleeting Soul"
+        },
+        "131": {
+            "controller": 1,
+            "entity_id": 131,
+            "entity_name": "Fleeting Soul",
+            "card_id": "BOT_568e",
+            "entityName": "Fleeting Soul"
+        },
+        "140": {
+            "controller": 1,
+            "entity_id": 140,
+            "entity_name": "Grim Rally",
+            "card_id": "TRL_249e",
+            "entityName": "Grim Rally"
+        },
+        "127": {
+            "controller": 2,
+            "entity_id": 127,
+            "entity_name": "Kobold Lackey",
+            "card_id": "DAL_614",
+            "entityName": "Kobold Lackey"
+        },
+        "135": {
+            "controller": 1,
+            "entity_id": 135,
+            "entity_name": "Flying High",
+            "card_id": "DAL_773e",
+            "entityName": "Flying High"
+        },
+        "136": {
+            "controller": 1,
+            "entity_id": 136,
+            "entity_name": "Flying High",
+            "card_id": "DAL_773e",
+            "entityName": "Flying High"
+        },
+        "143": {
+            "controller": 1,
+            "entity_id": 143,
+            "entity_name": "Grim Rally",
+            "card_id": "TRL_249e",
+            "entityName": "Grim Rally"
+        },
+        "147": {
+            "controller": 2,
+            "entity_id": 147,
+            "entity_name": "Free Agent",
+            "card_id": "TRL_363t",
+            "entityName": "Free Agent"
+        },
+        "126": {
+            "controller": 2,
+            "entity_id": 126,
+            "entity_name": "Faceless Lackey",
+            "card_id": "DAL_613",
+            "entityName": "Faceless Lackey"
+        },
+        "149": {
+            "controller": 2,
+            "entity_id": 149,
+            "entity_name": "Doomsayer",
+            "card_id": "NEW1_021",
+            "entityName": "Doomsayer"
+        },
+        "139": {
+            "controller": 1,
+            "entity_id": 139,
+            "entity_name": "Grim Rally",
+            "card_id": "TRL_249e",
+            "entityName": "Grim Rally"
+        },
+        "116": {
+            "controller": 2,
+            "entity_id": 116,
+            "entity_name": "Polished",
+            "card_id": "ULD_285e",
+            "entityName": "Polished"
+        },
+        "150": {
+            "controller": 2,
+            "entity_id": 150,
+            "entity_name": "Wicked Knife",
+            "card_id": "CS2_082_H1",
+            "entityName": "Wicked Knife"
+        },
+        "15": {
+            "controller": 1,
+            "entity_id": 15,
+            "entity_name": "Sinister Deal",
+            "card_id": "ULD_160",
+            "entityName": "Sinister Deal"
+        },
+        "13": {
+            "controller": 1,
+            "entity_id": 13,
+            "entity_name": "Beaming Sidekick",
+            "card_id": "ULD_191",
+            "entityName": "Beaming Sidekick"
+        },
+        "153": {
+            "controller": 1,
+            "entity_id": 153,
+            "entity_name": "Ethereal Lackey",
+            "card_id": "DAL_741",
+            "entityName": "Ethereal Lackey",
+            "created_by": {
+                "controller": 1,
+                "entity_id": 15,
+                "entity_name": "Sinister Deal",
+                "card_id": "ULD_160",
+                "entityName": "Sinister Deal"
+            }
+        },
+        "157": {
+            "controller": 1,
+            "entity_id": 157,
+            "entity_name": "Impbalming",
+            "card_id": "ULD_324",
+            "entityName": "Impbalming",
+            "created_by": {
+                "controller": 1,
+                "entity_id": 153,
+                "entity_name": "Ethereal Lackey",
+                "card_id": "DAL_741",
+                "entityName": "Ethereal Lackey",
+                "created_by": {
+                    "controller": 1,
+                    "entity_id": 15,
+                    "entity_name": "Sinister Deal",
+                    "card_id": "ULD_160",
+                    "entityName": "Sinister Deal"
+                }
+            }
+        },
+        "2": {
+            "controller": 1,
+            "entity_id": "1",
+            "entity_name": "<entity id 1>"
+        },
+        "3": {
+            "controller": 2,
+            "entity_id": "2",
+            "entity_name": "<entity id 2>"
+        },
+        "6": {
+            "controller": 1,
+            "entity_id": 6,
+            "entity_name": "<entity id 6>"
+        },
+        "7": {
+            "controller": 1,
+            "entity_id": 7,
+            "entity_name": "<entity id 7>"
+        },
+        "8": {
+            "controller": 1,
+            "entity_id": 8,
+            "entity_name": "<entity id 8>"
+        },
+        "9": {
+            "controller": 1,
+            "entity_id": 9,
+            "entity_name": "<entity id 9>"
+        },
+        "12": {
+            "controller": 1,
+            "entity_id": 12,
+            "entity_name": "<entity id 12>"
+        },
+        "16": {
+            "controller": 1,
+            "entity_id": 16,
+            "entity_name": "<entity id 16>"
+        },
+        "17": {
+            "controller": 1,
+            "entity_id": 17,
+            "entity_name": "<entity id 17>"
+        },
+        "23": {
+            "controller": 1,
+            "entity_id": 23,
+            "entity_name": "<entity id 23>"
+        },
+        "25": {
+            "controller": 1,
+            "entity_id": 25,
+            "entity_name": "<entity id 25>"
+        },
+        "29": {
+            "controller": 1,
+            "entity_id": 29,
+            "entity_name": "<entity id 29>"
+        },
+        "31": {
+            "controller": 1,
+            "entity_id": 31,
+            "entity_name": "<entity id 31>"
+        },
+        "32": {
+            "controller": 1,
+            "entity_id": 32,
+            "entity_name": "<entity id 32>"
+        },
+        "33": {
+            "controller": 1,
+            "entity_id": 33,
+            "entity_name": "<entity id 33>"
+        },
+        "34": {
+            "controller": 2,
+            "entity_id": 34,
+            "entity_name": "Backstab",
+            "card_id": "CS2_072"
+        },
+        "35": {
+            "controller": 2,
+            "entity_id": 35,
+            "entity_name": "<entity id 35>"
+        },
+        "36": {
+            "controller": 2,
+            "entity_id": 36,
+            "entity_name": "Eviscerate",
+            "card_id": "EX1_124"
+        },
+        "37": {
+            "controller": 2,
+            "entity_id": 37,
+            "entity_name": "<entity id 37>"
+        },
+        "39": {
+            "controller": 2,
+            "entity_id": 39,
+            "entity_name": "<entity id 39>"
+        },
+        "40": {
+            "controller": 2,
+            "entity_id": 40,
+            "entity_name": "<entity id 40>"
+        },
+        "41": {
+            "controller": 2,
+            "entity_id": 41,
+            "entity_name": "<entity id 41>"
+        },
+        "42": {
+            "controller": 2,
+            "entity_id": 42,
+            "entity_name": "<entity id 42>"
+        },
+        "43": {
+            "controller": 2,
+            "entity_id": 43,
+            "entity_name": "<entity id 43>"
+        },
+        "45": {
+            "controller": 2,
+            "entity_id": 45,
+            "entity_name": "<entity id 45>"
+        },
+        "47": {
+            "controller": 2,
+            "entity_id": 47,
+            "entity_name": "<entity id 47>"
+        },
+        "48": {
+            "controller": 2,
+            "entity_id": 48,
+            "entity_name": "<entity id 48>"
+        },
+        "49": {
+            "controller": 2,
+            "entity_id": 49,
+            "entity_name": "Backstab",
+            "card_id": "CS2_072"
+        },
+        "50": {
+            "controller": 2,
+            "entity_id": 50,
+            "entity_name": "<entity id 50>"
+        },
+        "51": {
+            "controller": 2,
+            "entity_id": 51,
+            "entity_name": "<entity id 51>"
+        },
+        "52": {
+            "controller": 2,
+            "entity_id": 52,
+            "entity_name": "<entity id 52>"
+        },
+        "53": {
+            "controller": 2,
+            "entity_id": 53,
+            "entity_name": "Sap",
+            "card_id": "EX1_581"
+        },
+        "55": {
+            "controller": 2,
+            "entity_id": 55,
+            "entity_name": "<entity id 55>"
+        },
+        "56": {
+            "controller": 2,
+            "entity_id": 56,
+            "entity_name": "<entity id 56>"
+        },
+        "57": {
+            "controller": 2,
+            "entity_id": 57,
+            "entity_name": "Eviscerate",
+            "card_id": "EX1_124"
+        },
+        "59": {
+            "controller": 2,
+            "entity_id": 59,
+            "entity_name": "<entity id 59>"
+        },
+        "60": {
+            "controller": 2,
+            "entity_id": 60,
+            "entity_name": "<entity id 60>"
+        },
+        "61": {
+            "controller": 2,
+            "entity_id": 61,
+            "entity_name": "<entity id 61>"
+        },
+        "62": {
+            "controller": 2,
+            "entity_id": 62,
+            "entity_name": "<entity id 62>"
+        },
+        "68": {
+            "controller": 2,
+            "entity_id": 68,
+            "entity_name": "The Coin",
+            "card_id": "GAME_005"
+        },
+        "110": {
+            "controller": 1,
+            "entity_id": 110,
+            "card_id": "GIL_191",
+            "entity_name": "Fiendish Circle",
+            "created_by": {
+                "controller": 1,
+                "entity_id": 101,
+                "entity_name": "Ethereal Lackey",
+                "card_id": "DAL_741",
+                "entityName": "Ethereal Lackey"
+            }
+        },
+        "111": {
+            "controller": 1,
+            "entity_id": 111,
+            "card_id": "DAL_007",
+            "entity_name": "Rafaam's Scheme",
+            "created_by": {
+                "controller": 1,
+                "entity_id": 101,
+                "entity_name": "Ethereal Lackey",
+                "card_id": "DAL_741",
+                "entityName": "Ethereal Lackey"
+            }
+        },
+        "120": {
+            "controller": 2,
+            "entity_id": 120,
+            "entity_name": "Short Fuse",
+            "card_id": "DAL_739e"
+        },
+        "138": {
+            "controller": 1,
+            "entity_id": 138,
+            "entity_name": "Grim Rally",
+            "card_id": "TRL_249e"
+        },
+        "141": {
+            "controller": 1,
+            "entity_id": 141,
+            "entity_name": "Grim Rally",
+            "card_id": "TRL_249e"
+        },
+        "142": {
+            "controller": 1,
+            "entity_id": 142,
+            "entity_name": "Grim Rally",
+            "card_id": "TRL_249e"
+        },
+        "152": {
+            "controller": 1,
+            "entity_id": 152,
+            "card_id": "DAL_614",
+            "entity_name": "Kobold Lackey",
+            "created_by": {
+                "controller": 1,
+                "entity_id": 15,
+                "entity_name": "Sinister Deal",
+                "card_id": "ULD_160",
+                "entityName": "Sinister Deal"
+            }
+        },
+        "154": {
+            "controller": 1,
+            "entity_id": 154,
+            "card_id": "DAL_613",
+            "entity_name": "Faceless Lackey",
+            "created_by": {
+                "controller": 1,
+                "entity_id": 15,
+                "entity_name": "Sinister Deal",
+                "card_id": "ULD_160",
+                "entityName": "Sinister Deal"
+            }
+        },
+        "156": {
+            "controller": 1,
+            "entity_id": 156,
+            "card_id": "GIL_543",
+            "entity_name": "Dark Possession",
+            "created_by": {
+                "controller": 1,
+                "entity_id": 153,
+                "entity_name": "Ethereal Lackey",
+                "card_id": "DAL_741",
+                "entityName": "Ethereal Lackey",
+                "created_by": {
+                    "controller": 1,
+                    "entity_id": 15,
+                    "entity_name": "Sinister Deal",
+                    "card_id": "ULD_160",
+                    "entityName": "Sinister Deal"
+                }
+            }
+        },
+        "158": {
+            "controller": 1,
+            "entity_id": 158,
+            "card_id": "DAL_007",
+            "entity_name": "Rafaam's Scheme",
+            "created_by": {
+                "controller": 1,
+                "entity_id": 153,
+                "entity_name": "Ethereal Lackey",
+                "card_id": "DAL_741",
+                "entityName": "Ethereal Lackey",
+                "created_by": {
+                    "controller": 1,
+                    "entity_id": 15,
+                    "entity_name": "Sinister Deal",
+                    "card_id": "ULD_160",
+                    "entityName": "Sinister Deal"
+                }
+            }
+        },
+        "159": {
+            "controller": 1,
+            "entity_id": 159,
+            "entity_name": "Flying High",
+            "card_id": "DAL_773e"
+        },
+        "160": {
+            "controller": 1,
+            "entity_id": 160,
+            "entity_name": "Flying High",
+            "card_id": "DAL_773e"
+        },
+        "162": {
+            "controller": 1,
+            "entity_id": 162,
+            "entity_name": "Worthless Imp",
+            "card_id": "ULD_324t"
+        },
+        "163": {
+            "controller": 1,
+            "entity_id": 163,
+            "entity_name": "Worthless Imp",
+            "card_id": "ULD_324t"
+        },
+        "164": {
+            "controller": 1,
+            "entity_id": 164,
+            "entity_name": "Worthless Imp",
+            "card_id": "ULD_324t"
+        }
+    },
+    "game summary": {
+        "player": {
+            "deck": {
+                "decklist": [
+                    "2 x Abusive Sergeant",
+                    "2 x Beaming Sidekick",
+                    "2 x Flame Imp",
+                    "2 x Grim Rally",
+                    "1 x Jar Dealer",
+                    "1 x Mecharoo",
+                    "2 x Saronite Taskmaster",
+                    "1 x Sinister Deal",
+                    "2 x Soulfire",
+                    "1 x The Soularium",
+                    "2 x Voidwalker",
+                    "2 x Dire Wolf Alpha",
+                    "2 x EVIL Genius",
+                    "2 x Knife Juggler",
+                    "2 x Scarab Egg",
+                    "1 x Serpent Egg",
+                    "2 x Magic Carpet",
+                    "1 x Sea Giant"
+                ],
+                "deckstring": "AAECAf0GBv2lA/b9AvqkA4+CA72mA9MBDPIB/acDwgjchgPsjAPOBzDZB4idA7EIxIkDtZ8DAA==",
+                "match": null
+            },
+            "starting hand": [
+                28,
+                4,
+                21
+            ],
+            "1": {
+                "played": [
+                    22
+                ],
+                "drawn": [
+                    28,
+                    4,
+                    21,
+                    24,
+                    5,
+                    26,
+                    22
+                ],
+                "summoned": [],
+                "face damage dealt": 0,
+                "face health healed": 0,
+                "init board": {
+                    "player": [
+                        64,
+                        65
+                    ],
+                    "opponent": [
+                        66,
+                        67
+                    ]
+                },
+                "init hand": [
+                    24,
+                    22,
+                    5,
+                    26
+                ]
+            },
+            "2": {
+                "played": [
+                    26
+                ],
+                "drawn": [
+                    4
+                ],
+                "summoned": [],
+                "face damage dealt": 0,
+                "face health healed": 0,
+                "init board": {
+                    "player": [
+                        65,
+                        22,
+                        64
+                    ],
+                    "opponent": [
+                        66,
+                        67,
+                        38
+                    ]
+                },
+                "init hand": [
+                    24,
+                    5,
+                    26,
+                    4
+                ]
+            },
+            "3": {
+                "played": [
+                    26,
+                    14
+                ],
+                "drawn": [
+                    14
+                ],
+                "summoned": [],
+                "face damage dealt": 0,
+                "face health healed": 0,
+                "init board": {
+                    "player": [
+                        26,
+                        65,
+                        64
+                    ],
+                    "opponent": [
+                        66,
+                        67
+                    ]
+                },
+                "init hand": [
+                    24,
+                    5,
+                    4,
+                    14
+                ]
+            },
+            "4": {
+                "played": [
+                    5,
+                    4
+                ],
+                "drawn": [
+                    18
+                ],
+                "summoned": [
+                    91,
+                    93
+                ],
+                "face damage dealt": 0,
+                "face health healed": 0,
+                "init board": {
+                    "player": [
+                        65,
+                        14,
+                        64,
+                        26
+                    ],
+                    "opponent": [
+                        66,
+                        67,
+                        54,
+                        84
+                    ]
+                },
+                "init hand": [
+                    24,
+                    5,
+                    4,
+                    18
+                ]
+            },
+            "5": {
+                "played": [
+                    18,
+                    102,
+                    101,
+                    24
+                ],
+                "drawn": [
+                    30,
+                    109
+                ],
+                "summoned": [
+                    103,
+                    104,
+                    105
+                ],
+                "face damage dealt": 0,
+                "face health healed": 0,
+                "init board": {
+                    "player": [
+                        65,
+                        91,
+                        64,
+                        26
+                    ],
+                    "opponent": [
+                        66,
+                        67,
+                        58
+                    ]
+                },
+                "init hand": [
+                    24,
+                    18,
+                    30
+                ]
+            },
+            "6": {
+                "played": [
+                    65,
+                    11,
+                    30
+                ],
+                "drawn": [
+                    11,
+                    19
+                ],
+                "summoned": [],
+                "face damage dealt": 0,
+                "face health healed": 0,
+                "init board": {
+                    "player": [
+                        65,
+                        103,
+                        104,
+                        105,
+                        102,
+                        101,
+                        64
+                    ],
+                    "opponent": [
+                        66,
+                        67,
+                        44,
+                        118,
+                        99
+                    ]
+                },
+                "init hand": [
+                    30,
+                    109,
+                    11
+                ]
+            },
+            "7": {
+                "played": [
+                    10,
+                    21,
+                    20,
+                    27,
+                    109
+                ],
+                "drawn": [
+                    10,
+                    21,
+                    27,
+                    20
+                ],
+                "summoned": [],
+                "face damage dealt": 0,
+                "face health healed": 0,
+                "init board": {
+                    "player": [
+                        65,
+                        103,
+                        104,
+                        105,
+                        101,
+                        11,
+                        64
+                    ],
+                    "opponent": [
+                        66,
+                        67,
+                        44,
+                        46,
+                        63,
+                        128
+                    ]
+                },
+                "init hand": [
+                    109,
+                    19,
+                    10
+                ]
+            },
+            "8": {
+                "played": [
+                    65,
+                    15,
+                    153,
+                    157
+                ],
+                "drawn": [
+                    15,
+                    13,
+                    153,
+                    157
+                ],
+                "summoned": [],
+                "face damage dealt": 0,
+                "face health healed": 0,
+                "init board": {
+                    "player": [
+                        65,
+                        103,
+                        11,
+                        21,
+                        64
+                    ],
+                    "opponent": [
+                        66,
+                        67,
+                        127,
+                        147,
+                        126,
+                        149,
+                        150
+                    ]
+                },
+                "init hand": [
+                    19,
+                    15
+                ]
+            },
+            "outcome": "Won",
+            "rank": null
+        },
+        "opponent": {
+            "deck": {
+                "cards": [
+                    38,
+                    44,
+                    46,
+                    54,
+                    58,
+                    63
+                ],
+                "match": null
+            },
+            "starting hand": [
+                47,
+                54,
+                59,
+                38
+            ],
+            "1": {
+                "played": [
+                    38
+                ],
+                "drawn": [
+                    34
+                ],
+                "summoned": [],
+                "face damage dealt": 0,
+                "face health healed": 0
+            },
+            "2": {
+                "played": [
+                    53
+                ],
+                "drawn": [
+                    36
+                ],
+                "summoned": [],
+                "face damage dealt": 0,
+                "face health healed": 0
+            },
+            "3": {
+                "played": [
+                    54,
+                    84
+                ],
+                "drawn": [
+                    37
+                ],
+                "summoned": [],
+                "face damage dealt": 0,
+                "face health healed": 0
+            },
+            "4": {
+                "played": [
+                    34,
+                    36,
+                    68,
+                    58
+                ],
+                "drawn": [
+                    58
+                ],
+                "summoned": [],
+                "face damage dealt": 0,
+                "face health healed": 0
+            },
+            "5": {
+                "played": [
+                    49,
+                    44,
+                    98,
+                    99
+                ],
+                "drawn": [
+                    49
+                ],
+                "summoned": [
+                    118
+                ],
+                "face damage dealt": 0,
+                "face health healed": 0
+            },
+            "6": {
+                "played": [
+                    46,
+                    63
+                ],
+                "drawn": [
+                    46
+                ],
+                "summoned": [
+                    128
+                ],
+                "face damage dealt": 0,
+                "face health healed": 0
+            },
+            "7": {
+                "played": [
+                    127,
+                    57,
+                    126,
+                    67
+                ],
+                "drawn": [
+                    57
+                ],
+                "summoned": [
+                    147,
+                    149,
+                    150
+                ],
+                "face damage dealt": 0,
+                "face health healed": 0
+            },
+            "8": {
+                "played": [],
+                "drawn": [
+                    45
+                ],
+                "summoned": [],
+                "face damage dealt": 0,
+                "face health healed": 0
+            },
+            "outcome": "Lost"
+        },
+        "ranked": true,
+        "format": "standard",
+        "first player": "player",
+        "second player": "opponent",
+        "conceded": true
+    }
+}

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>30for30</title>
+  <title>TEST</title>
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
@@ -91,13 +91,43 @@
           </div>
           <a href="./data.html"><span class="article-link"></span></a>
         </div>
+        <div class="card my-5">
+          <div class="card-body">
+            <div class="hash-anchor" id="bug"></div>
+            <a href="#bug">
+              <h5 class="text-black">I tried to use the Data Drinker plugin, but ran into a problem. What gives?</h5>
+            </a>
+          </div>
+          <div class="card-lower">
+            <div class="construction"></div>
+            <script type=module>
+              import * as templates from '../imports.js';
+              document.querySelector('.construction').innerHTML = templates.construction
+            </script>
+          </div>
+        </div>
+
       </div>
       <!-- /.container -->
     </div>
-    <div id="footer"></div>
+    <div id="footer">
+      <footer class="bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="copyright">Copyright &copy; 30for30 2019</div>
+            <div id="about" class="col-md-1 float-right">
+              <a href="./about.html">About</a>
+            </div>
+            <div class="col-md-1  float-right">
+              <a href="./faq.html">FAQ</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
     <script type=module>
-      import * as templates from '../imports.js';
-      document.querySelector('#footer').innerHTML = templates.footer
+      //import * as templates from '../imports.js';
+      //document.querySelector('#footer').innerHTML = templates.test
     </script>
   </div>
   <!-- Bootstrap core JavaScript -->

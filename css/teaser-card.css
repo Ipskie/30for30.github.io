@@ -6,8 +6,7 @@
 .article-card {
     position: relative;
     background-color: rgb(246, 251, 255);
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
+    margin: 1.25rem 0 1.25rem 0;
     padding: 0rem;
     font-size: 130%;
     line-height: 1.6;
@@ -144,6 +143,13 @@
 
 #winrate-teaser {
     background: linear-gradient(to left, rgba(0, 0, 0, 0)30%, rgb(0, 0, 0)), url('../images/winrate.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#building-teaser {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0)30%, rgb(0, 0, 0)), url('../images/building.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

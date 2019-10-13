@@ -119,12 +119,31 @@ export var contribute =
 export var footer =
     `
 <!-- Footer Template -->
-<footer class="py-3 bg-dark">
+<footer class="bg-dark">
     <div class="container">
         <div class="row">
-            <div class="copyright">Copyright &copy; 30for30 2019</div>
-            <div class="m-0 text-right text-white">Other Stuff</div>
+        <div class="copyright">Copyright &copy; 30for30 2019</div>
+        <div class="col-md-1 float-right">
+            <a href="./about.html">About</a>
+        </div>
+        <div class="col-md-1  float-right">
+            <a href="./faq.html">FAQ</a>
+        </div>
         </div>
     </div>
 </footer>
 `
+export var construction =
+    `
+<div class="article-card rounded-lg">
+    <div class="article-teaser rounded-lg" id="building-teaser">
+        <div class="row">
+            <div class="teaser-title">
+            <h2 class='text-white p-wide'>Under Construction</h2>
+            <p class='text-white'>This part isn't finished yet.</p>
+            <p class='text-white'>Check back later!</p>
+            </div>
+        </div>
+    </div>
+</div>
+            `
